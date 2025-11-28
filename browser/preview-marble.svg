@@ -1,0 +1,85 @@
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="200" width="400" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="0 0 400 200.00001">
+<defs>
+<filter id="filter3472">
+<feGaussianBlur stdDeviation="2.5" result="result0"/>
+<feDiffuseLighting surfaceScale="5" diffuseConstant="1" result="result2">
+<feDistantLight elevation="60" azimuth="225"/>
+</feDiffuseLighting>
+<feComposite in2="SourceGraphic" k3="0" k2="0" k1="1" result="result4" k4="0" operator="arithmetic"/>
+<feTurbulence numOctaves="9" type="turbulence" baseFrequency="0.020172910662824207"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0.75 0 0 0 0 1 0 0 0 -1 0.75 "/>
+<feComposite operator="atop" in2="result4"/>
+</filter>
+<filter id="filter3506">
+<feGaussianBlur stdDeviation="2.5" result="result0"/>
+<feDiffuseLighting result="result2" diffuseConstant="1" surfaceScale="5">
+<feDistantLight elevation="60" azimuth="225"/>
+</feDiffuseLighting>
+<feComposite in2="SourceGraphic" k3="0" k2="0" k1="1" result="result4" k4="0" operator="arithmetic"/>
+<feTurbulence numOctaves="9" type="turbulence" baseFrequency="0.020172910662824207"/>
+<feColorMatrix values="0 0 0 0 0 0 0 0 0 0.9 0 0 0 0 1 0 0 0 -1 0.75 " type="matrix"/>
+<feComposite operator="atop" in2="result4"/>
+</filter>
+<filter id="filter3424">
+<feGaussianBlur stdDeviation="2.5" result="result0"/>
+<feDiffuseLighting result="result2" diffuseConstant="1" surfaceScale="5">
+<feDistantLight elevation="60" azimuth="225"/>
+</feDiffuseLighting>
+<feComposite in2="SourceGraphic" k3="0" k2="0" k1="1" result="result4" k4="0" operator="arithmetic"/>
+<feTurbulence numOctaves="9" seed="42" type="turbulence" baseFrequency="0.02"/>
+<feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 -1 0.85 " type="matrix"/>
+<feComposite operator="atop" in2="result4"/>
+</filter>
+<filter id="filter3600">
+<feGaussianBlur stdDeviation="2.5" result="result0"/>
+<feDiffuseLighting result="result2" diffuseConstant="1" surfaceScale="5">
+<feDistantLight elevation="60" azimuth="225"/>
+</feDiffuseLighting>
+<feComposite in2="SourceGraphic" k3="0" k2="0" k1="1" result="result4" k4="0" operator="arithmetic"/>
+<feTurbulence numOctaves="9" type="turbulence" baseFrequency="0.020172910662824207"/>
+<feColorMatrix values="0 0 0 0 1 0 0 0 0 0.5 0 0 0 0 0.5 0 0 0 -1 0.75 " type="matrix"/>
+<feComposite operator="atop" in2="result4"/>
+</filter>
+<filter id="filter3726">
+<feGaussianBlur stdDeviation="0.95"/>
+</filter>
+<filter id="filter3654">
+<feGaussianBlur stdDeviation="0.94067121"/>
+</filter>
+<filter id="filter3714">
+<feGaussianBlur stdDeviation="0.95"/>
+</filter>
+</defs>
+<metadata>
+<rdf:RDF>
+<cc:Work rdf:about="">
+<dc:format>image/svg+xml</dc:format>
+<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+<dc:title/>
+</cc:Work>
+</rdf:RDF>
+</metadata>
+<g transform="translate(0 -922.52)">
+<rect style="color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;shape-rendering:auto;solid-color:#000000;image-rendering:auto" height="200" width="400" y="922.52" x="0" fill="#fff"/>
+<g opacity=".25" transform="translate(279 993.52)" filter="url(#filter3714)" stroke="#000">
+<path stroke-linejoin="round" d="m5 50 90-45v90z" fill-rule="evenodd" stroke="#000" stroke-linecap="round" stroke-width="5"/>
+</g>
+<g filter="url(#filter3654)" transform="translate(-420.22 -204.5)">
+<polygon opacity=".25" stroke-linejoin="round" fill-rule="evenodd" stroke-linecap="round" transform="translate(600,1200)" stroke="#000" points="4.3493 39.667 35.893 35.084 50 6.5 64.107 35.084 95.651 39.667 72.825 61.916 78.214 93.333 50 78.5 21.786 93.333 27.175 61.916" stroke-width="5"/>
+</g>
+<g opacity=".25" stroke-linejoin="round" fill-rule="evenodd" transform="translate(79 993.52)" filter="url(#filter3726)" stroke="#000" stroke-linecap="round" stroke-width="5">
+<path d="m5 35 30-30h30l30 30v30l-30 30h-30l-30-30z"/>
+<path d="m5 35h30v-30h30v30h30v30h-30v30h-30v-30h-30z"/>
+</g>
+<g stroke-linejoin="round" fill-rule="evenodd" transform="translate(54 968.52)" stroke-linecap="round" stroke-width="5">
+<path d="m5 35 30-30h30l30 30v30l-30 30h-30l-30-30z" filter="url(#filter3472)" stroke="#0080ff" fill="#0080ff"/>
+<path d="m5 35h30v-30h30v30h30v30h-30v30h-30v-30h-30z" filter="url(#filter3506)" stroke="#00c0ff" fill="#00e0ff"/>
+</g>
+<g transform="translate(-445.22 -29.496)">
+<polygon stroke-linejoin="round" fill-rule="evenodd" stroke-linecap="round" transform="translate(600 1e3)" filter="url(#filter3424)" stroke="#ffff40" points="21.786 93.333 27.175 61.916 4.3493 39.667 35.893 35.084 50 6.5 64.107 35.084 95.651 39.667 72.825 61.916 78.214 93.333 50 78.5" stroke-width="5" fill="#ffff40"/>
+</g>
+<g filter="url(#filter3600)" transform="translate(254 968.52)">
+<path stroke-linejoin="round" d="m5 50 90-45v90z" fill-rule="evenodd" stroke="#f00" stroke-linecap="round" stroke-width="5" fill="#f00"/>
+</g>
+</g>
+</svg>

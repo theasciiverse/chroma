@@ -1,0 +1,113 @@
+<chroma type="graphics">
+<head>
+<title>XOR</title>
+</head>
+
+<pieces>
+
+<piece name="space" level="yes">
+<image file="svg:" x="0" y="0" w="360" h="24" width="15" />
+</piece>
+
+<piece name="wall" level="yes">
+<image file="svg:" x="0" y="24" w="360" h="24" width="15" />
+</piece>
+
+<piece name="player_one" level="yes">
+<image file="svg:" x="0" y="48" w="360" h="24" width="15" />
+<image type="small" file="svg:" x="0" y="48" w="360" h="24" width="15" />
+</piece>
+
+<piece name="player_two" level="yes">
+<image file="svg:" x="0" y="72" w="360" h="24" width="15" />
+<image type="small" file="svg:" x="0" y="72" w="360" h="24" width="15" />
+</piece>
+
+<piece name="arrow_red_left" level="yes">
+<image file="svg:" x="0" y="192" w="360" h="24" width="15" />
+</piece>
+
+<piece name="arrow_red_down" level="yes">
+<image file="svg:" x="0" y="168" w="360" h="24" width="15" />
+</piece>
+
+<piece name="bomb_red_left" level="yes">
+<image file="svg:" x="0" y="240" w="360" h="24" width="15" />
+</piece>
+
+<piece name="bomb_red_down" level="yes">
+<image file="svg:" x="0" y="216" w="360" h="24" width="15" />
+</piece>
+
+<piece name="circle" level="yes">
+<image file="svg:" x="0" y="312" w="360" h="24" width="15" />
+</piece>
+
+<piece name="star" level="yes">
+<image file="svg:" x="0" y="264" w="360" h="24" width="15" />
+<image type="small" file="svg:" x="0" y="264" w="360" h="24" width="15" />
+</piece>
+
+<piece name="door" level="yes">
+<image file="svg:" x="0" y="288" w="360" h="24" width="15" />
+<image type="small" file="svg:" x="0" y="288" w="360" h="24" width="15" />
+</piece>
+
+<piece name="explosion_red_left">
+<image colour="#ffffff" />
+</piece>
+<piece name="explosion_red_horizontal">
+<clone piece="explosion_red_left" />
+</piece>
+<piece name="explosion_red_right">
+<clone piece="explosion_red_left" />
+</piece>
+<piece name="explosion_red_top">
+<clone piece="explosion_red_left" />
+</piece>
+<piece name="explosion_red_vertical">
+<clone piece="explosion_red_left" />
+</piece>
+<piece name="explosion_red_bottom">
+<clone piece="explosion_red_left" />
+</piece>
+
+<piece name="dots_x" level="yes">
+<image file="svg:" x="0" y="120" w="360" h="24" width="15" />
+</piece>
+
+<piece name="dots_y" level="yes">
+<image file="svg:" x="0" y="144" w="360" h="24" width="15" />
+</piece>
+
+<piece name="switch" level="yes">
+<image file="svg:" x="0" y="360" w="360" h="24" width="15" />
+</piece>
+
+<piece name="teleport" level="yes">
+<image file="svg:" x="0" y="336" w="360" h="24" width="15" />
+</piece>
+
+<piece name="map_top_left" level="yes">
+<image file="svg:" x="0" y="96" w="360" h="24" width="15" />
+</piece>
+
+<piece name="map_top_right" level="yes">
+<image file="svg:" x="0" y="96" w="360" h="24" width="15" />
+</piece>
+
+<piece name="map_bottom_left" level="yes">
+<image file="svg:" x="0" y="96" w="360" h="24" width="15" />
+</piece>
+
+<piece name="map_bottom_right" level="yes">
+<image file="svg:" x="0" y="96" w="360" h="24" width="15" />
+</piece>
+
+<piece name="darkness" level="yes">
+<image file="svg:" x="0" y="0" w="360" h="24" width="15" />
+</piece>
+
+</pieces>
+
+</chroma>

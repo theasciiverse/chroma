@@ -1,0 +1,251 @@
+<chroma type="graphics">
+<head>
+<title translate="yes">Chroma Zen</title>
+</head>
+
+<pieces>
+
+<piece name="space" tile="yes">
+<image colour="#ffffff" />
+</piece>
+
+<piece name="wall" bevel="piece" tile="yes">
+<image colour="#808080" />
+<image file="svg:" x="0" y="1200" w="100" h="100" rotate="0" />
+<image file="svg:" x="200" y="1200" w="100" h="100" rotate="0" />
+<image file="svg:" x="400" y="1200" w="100" h="100" rotate="0" />
+<image file="svg:" x="600" y="1200" w="100" h="100" rotate="0" />
+</piece>
+
+<piece name="player_one">
+<image file="svg:" x="0" y="1000" w="100" h="100" rotate="0" />
+<image file="svg:" x="400" y="1000" w="100" h="100" rotate="0" />
+<image type="small" file="svg:" x="0" y="1000" w="100" h="100" rotate="0" />
+<image type="small" file="svg:" x="400" y="1000" w="100" h="100" rotate="0" />
+</piece>
+
+<piece name="player_two">
+<image file="svg:" x="200" y="1000" w="100" h="100" rotate="0" />
+<image file="svg:" x="600" y="1000" w="100" h="100" rotate="0" />
+<image type="small" file="svg:" x="200" y="1000" w="100" h="100" rotate="0" />
+<image type="small" file="svg:" x="600" y="1000" w="100" h="100" rotate="0" />
+</piece>
+
+<piece name="dots">
+<image file="svg:" x="0" y="400" w="100" h="100" rotate="0" />
+</piece>
+
+<piece name="arrow_red_left">
+<image file="svg:" x="0" y="0" w="100" h="100" rotate="0" />
+</piece>
+
+<piece name="arrow_red_up">
+<image file="svg:" x="0" y="0" w="100" h="100" rotate="90" />
+</piece>
+
+<piece name="arrow_red_right">
+<image file="svg:" x="0" y="0" w="100" h="100" rotate="180" />
+</piece>
+
+<piece name="arrow_red_down">
+<image file="svg:" x="0" y="0" w="100" h="100" rotate="270" />
+</piece>
+
+<piece name="bomb_red_left">
+<image file="svg:" x="0" y="200" w="100" h="100" rotate="0" />
+</piece>
+
+<piece name="bomb_red_up">
+<image file="svg:" x="0" y="200" w="100" h="100" rotate="90" />
+</piece>
+
+<piece name="bomb_red_right">
+<image file="svg:" x="0" y="200" w="100" h="100" rotate="180" />
+</piece>
+
+<piece name="bomb_red_down">
+<image file="svg:" x="0" y="200" w="100" h="100" rotate="270" />
+</piece>
+
+<piece name="arrow_green_left">
+<image file="svg:" x="200" y="0" w="100" h="100" rotate="0" />
+</piece>
+
+<piece name="arrow_green_up">
+<image file="svg:" x="200" y="0" w="100" h="100" rotate="90" />
+</piece>
+
+<piece name="arrow_green_right">
+<image file="svg:" x="200" y="0" w="100" h="100" rotate="180" />
+</piece>
+
+<piece name="arrow_green_down">
+<image file="svg:" x="200" y="0" w="100" h="100" rotate="270" />
+</piece>
+
+<piece name="bomb_green_left">
+<image file="svg:" x="200" y="200" w="100" h="100" rotate="0" />
+</piece>
+
+<piece name="bomb_green_up">
+<image file="svg:" x="200" y="200" w="100" h="100" rotate="90" />
+</piece>
+
+<piece name="bomb_green_right">
+<image file="svg:" x="200" y="200" w="100" h="100" rotate="180" />
+</piece>
+
+<piece name="bomb_green_down">
+<image file="svg:" x="200" y="200" w="100" h="100" rotate="270" />
+</piece>
+
+<piece name="arrow_blue_left">
+<image file="svg:" x="400" y="0" w="100" h="100" rotate="0" />
+</piece>
+
+<piece name="arrow_blue_up">
+<image file="svg:" x="400" y="0" w="100" h="100" rotate="90" />
+</piece>
+
+<piece name="arrow_blue_right">
+<image file="svg:" x="400" y="0" w="100" h="100" rotate="180" />
+</piece>
+
+<piece name="arrow_blue_down">
+<image file="svg:" x="400" y="0" w="100" h="100" rotate="270" />
+</piece>
+
+<piece name="bomb_blue_left">
+<image file="svg:" x="400" y="200" w="100" h="100" rotate="0" />
+</piece>
+
+<piece name="bomb_blue_up">
+<image file="svg:" x="400" y="200" w="100" h="100" rotate="90" />
+</piece>
+
+<piece name="bomb_blue_right">
+<image file="svg:" x="400" y="200" w="100" h="100" rotate="180" />
+</piece>
+
+<piece name="bomb_blue_down">
+<image file="svg:" x="400" y="200" w="100" h="100" rotate="270" />
+</piece>
+
+<piece name="circle">
+<image file="svg:" x="600" y="0" w="100" h="100" rotate="0" />
+</piece>
+
+<piece name="star">
+<image file="svg:" x="600" y="400" w="100" h="100" rotate="0" />
+<image type="small" file="svg:" x="600" y="400" w="100" h="100" rotate="0" />
+</piece>
+
+<piece name="door">
+<image file="svg:" x="600" y="600" w="100" h="100" rotate="0" />
+<image type="small" file="svg:" x="600" y="600" w="100" h="100" rotate="0" />
+</piece>
+
+<piece name="explosion_red_left">
+<image colour="#ff0000" />
+</piece>
+<piece name="explosion_red_horizontal">
+<clone piece="explosion_red_left" />
+</piece>
+<piece name="explosion_red_right">
+<clone piece="explosion_red_left" />
+</piece>
+<piece name="explosion_red_top">
+<clone piece="explosion_red_left" />
+</piece>
+<piece name="explosion_red_vertical">
+<clone piece="explosion_red_left" />
+</piece>
+<piece name="explosion_red_bottom">
+<clone piece="explosion_red_left" />
+</piece>
+
+<piece name="explosion_green_left">
+<image colour="#00ff00" />
+</piece>
+<piece name="explosion_green_horizontal">
+<clone piece="explosion_green_left" />
+</piece>
+<piece name="explosion_green_right">
+<clone piece="explosion_green_left" />
+</piece>
+<piece name="explosion_green_top">
+<clone piece="explosion_green_left" />
+</piece>
+<piece name="explosion_green_vertical">
+<clone piece="explosion_green_left" />
+</piece>
+<piece name="explosion_green_bottom">
+<clone piece="explosion_green_left" />
+</piece>
+
+<piece name="explosion_blue_left">
+<image colour="#0000ff" />
+</piece>
+<piece name="explosion_blue_horizontal">
+<clone piece="explosion_blue_left" />
+</piece>
+<piece name="explosion_blue_right">
+<clone piece="explosion_blue_left" />
+</piece>
+<piece name="explosion_blue_top">
+<clone piece="explosion_blue_left" />
+</piece>
+<piece name="explosion_blue_vertical">
+<clone piece="explosion_blue_left" />
+</piece>
+<piece name="explosion_blue_bottom">
+<clone piece="explosion_blue_left" />
+</piece>
+
+<piece name="dots_x">
+<image file="svg:" x="400" y="400" w="100" h="100" rotate="90" />
+</piece>
+
+<piece name="dots_y">
+<image file="svg:" x="400" y="400" w="100" h="100" rotate="0" />
+</piece>
+
+<piece name="switch">
+<image file="svg:" x="400" y="600" w="100" h="100" rotate="0" />
+</piece>
+
+<piece name="teleport">
+<image file="svg:" x="200" y="600" w="100" h="100" rotate="0" />
+</piece>
+
+<piece name="map_top_left">
+<image file="svg:" x="0" y="800" w="100" h="100" rotate="0" />
+</piece>
+
+<piece name="map_top_right">
+<image file="svg:" x="200" y="800" w="100" h="100" rotate="0" />
+</piece>
+
+<piece name="map_bottom_left">
+<image file="svg:" x="400" y="800" w="100" h="100" rotate="0" />
+</piece>
+
+<piece name="map_bottom_right">
+<image file="svg:" x="600" y="800" w="100" h="100" rotate="0" />
+</piece>
+
+<piece name="darkness">
+<image colour="#000000" />
+</piece>
+
+<piece name="dots_double">
+<image file="svg:" x="200" y="400" w="100" h="100" rotate="0" />
+</piece>
+
+<piece name="circle_double">
+<image file="svg:" x="600" y="200" w="100" h="100" rotate="0" />
+</piece>
+
+</pieces>
+
+</chroma>

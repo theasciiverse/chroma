@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="chroma-style.css">
+<script type="text/javascript" src="chroma-script.js"></script>
+<body>
+
+<canvas id="screen" style="display: none"></canvas>
+<canvas id="bar" style="display: none"></canvas>
+<canvas id="map" style="display: none"></canvas>
+
+<div class="keypad transition" id="keypad" style="display: none">
+<div class="row">
+<div class="cell"><div class="key blue" id="undo">&#9664;</div></div>
+<div class="cell"><div class="key cyan" id="up">&#9651;</div></div>
+<div class="cell"><div class="key blue" id="redo">&#9654;</div></div>
+</div>
+<div class="row">
+<div class="cell"><div class="key cyan" id="left">&#9665;</div></div>
+<div class="cell"><div class="key cyan" id="swap">&#9680;</div></div>
+<div class="cell"><div class="key cyan" id="right">&#9655;</div></div>
+</div>
+<div class="row">
+<div class="cell"><div class="drag" id="drag">&#10019;</div></div>
+<div class="cell"><div class="key cyan" id="down">&#9661;</div></div>
+<div class="cell"><div class="toggle" id="toggle">&#9700;</div></div>
+</div>
+</div>
+
+<div id="menu-icon">
+<span class="red">c</span><span class="yellow">h</span><span class="green">r</span><span class="cyan">o</span><span class="blue">m</span><span class="magenta">a</span>
+</div>
+
+<div class="menu" id="menu">
+
+<div class="logo" id="logo">
+<span class="red">c</span><span class="yellow">h</span><span class="green">r</span><span class="cyan">o</span><span class="blue">m</span><span class="magenta">a</span>
+</div>
+
+<div class="items" id="items">
+</div>
+
+<h1 id="missing">To play Chroma, enable Javascript</h1>
+
+<div class="item grey" id="missing-xml" style="display: none">
+<div class="item-text" id="error-xml">Waiting for graphics XML to load...</div>
+</div>
+<div class="item grey" id="missing-sheet" style="display: none">
+<div class="item-text" id="error-sheet">Waiting for graphics SVG to load...</div>
+</div>
+<div class="item grey" id="missing-levels" style="display: none">
+<div class="item-text" id="error-levels">Waiting for level data to load...</div>
+</div>
+<div class="item grey" id="missing-render" style="display: none">
+<div class="item-text" id="error-render">Waiting for graphics to render...</div>
+</div>
+
+<div class="instructions" id="instructions">
+<p><span class="red">c</span><span class="yellow">h</span><span class="green">r</span><span class="cyan">o</span><span class="blue">m</span><span class="magenta">a</span> is an abstract puzzle game. A variety of colourful shapes are arranged in a series of increasingly complex patterns, forming fiendish traps that must be disarmed and mysterious puzzles that must be manipulated in order to give up their subtle secrets. Initially so straightforward that anyone can pick it up and begin to play, yet gradually becoming difficult enough to tax even the brightest of minds. Have you got what it takes to solve <span class="red">c</span><span class="yellow">h</span><span class="green">r</span><span class="cyan">o</span><span class="blue">m</span><span class="magenta">a</span>?</p>
+
+<h2>Levels</h2>
+<p>There are twenty one levels, split into two sets - nine intended for beginners, providing a step-by-step introduction to the mechanics of <span class="red">c</span><span class="yellow">h</span><span class="green">r</span><span class="cyan">o</span><span class="blue">m</span><span class="magenta">a</span>'s building blocks, and a further twelve for those in search of a real challenge. You can play them in any order, but you'll probably find it useful to build up experience on the earlier levels before tacking the later ones.</p>
+
+<h2>Objective</h2>
+<p>In each level, the goal is to use your two player pieces to collect all of the stars before leaving through the door. Other pieces such as circles, squares, triangles and dots serve to help or hinder you in this quest. Part of the challenge of <span class="red">c</span><span class="yellow">h</span><span class="green">r</span><span class="cyan">o</span><span class="blue">m</span><span class="magenta">a</span> is understanding exactly how these pieces interact with one another - you'll need to experiment until you discover how their differing properties can best be used to your advantage. To this end, the full range of pieces is introduced over the first six levels of each set.</p>
+
+<h2>Controlling your pieces</h2>
+<p>There are two octagonal player pieces, of which one is active, and may be moved by clicking where you wish it to go, using the on-screen keypad (which you can pull down from the top-left corner of the screen) or with the arrow keys. To swap control to the other player piece, either click <span class="cyan">&#9680;</span> or press <span class="cyan">[SPACE]</span> or <span class="cyan">[ENTER]</span>, or alternatively click the piece itself. Initially, many of the puzzles can be solved using only one of the player pieces, but as the levels get harder, you'll find it necessary to carefully co-ordinate the moves of both of them in order to achieve your objective.</p>
+
+<h2>Undoing moves</h2>
+<p>If you make a mistake, you can click <span class="cyan">&#9664;</span> or press <span class="cyan">[DELETE]</span> to undo as many moves as you wish, allowing you to move in a different way. Alternatively, you can click <span class="cyan">&#9654;</span> or press <span class="cyan">[INSERT]</span> to redo moves that have been previously undone. Once a move has been made, however, you must wait for its full consequences to take effect before you can move again. Holding <span class="cyan">[SHIFT]</span> down will speed things up, whereas <span class="cyan">[CTRL]</span> will slow things down, allowing you to observe the changes in more detail.</p>
+
+<h2>Saving and loading positions</h2>
+<p>Clicking on the <span class="red">c</span><span class="yellow">h</span><span class="green">r</span><span class="cyan">o</span><span class="blue">m</span><span class="magenta">a</span> icon in the top-right corner of the screen or pressing <span class="cyan">[ESCAPE]</span> will present you with a menu, from which you can save your position, load a previous position, or return to the level selection menu, as well as allowing you to revert to the last position loaded. Saved positions are stored in your browser's local storage, and so will remain on your device after you close the window, unless you are browsing privately, in which case they will be lost.</p>
+<p>At the start of a level, you can also replay the moves from a previously saved position. When doing so, <span class="cyan">[LEFT]</span> reverses the replay, <span class="cyan">[UP]</span> or <span class="cyan">[DOWN]</span> pauses it, and <span class="cyan">[RIGHT]</span> continues. You can also use the on-screen keypad to control the replay. Should you wish to stop the replay and start making moves again, return to the menu, select the appropriate option and then return to the game.</p>
+
+<h2>Changing the display</h2>
+<p>The <span class="cyan">Preferences</span> menu allows you to change the size and style of the graphics used, as well as the speed of the game. You can also export your saved positions to a file for safekeeping or subsequent import<span class="other">, and adjust how <span class="red">c</span><span class="yellow">h</span><span class="green">r</span><span class="cyan">o</span><span class="blue">m</span><span class="magenta">a</span> plays other games</span>.</p>
+
+<div class="other">
+<h2>Other games</h2>
+<p><span class="red">c</span><span class="yellow">h</span><span class="green">r</span><span class="cyan">o</span><span class="blue">m</span><span class="magenta">a</span> can also play levels from two similar games, <span class="cyan">XOR</span> and <span class="cyan">Enigma</span>. It features a "warts and all" reimplementation based on a reverse engineering of the game engines, meaning that, unlike various other conversions, solutions found with <span class="red">c</span><span class="yellow">h</span><span class="green">r</span><span class="cyan">o</span><span class="blue">m</span><span class="magenta">a</span> are guaranteed to match those for the original game. With the option to use the original graphics too, <span class="red">c</span><span class="yellow">h</span><span class="green">r</span><span class="cyan">o</span><span class="blue">m</span><span class="magenta">a</span> offers a truly authentic playing experience.</p>
+
+<h2>XOR</h2>
+<p>XOR was published by Logotron Longman in 1987. It features fifteen mazes of increasingly fiendish puzzles built from surreal elements such as chickens, fish, bombs and dolls. It was released on a variety of platforms, including the BBC Micro, Amstrad CPC, Commodore 64, ZX Spectrum and Atari ST. A later release for the Amiga included a second set of fifteen further mazes.</p>
+
+<p>In the <span class="cyan">Preferences</span> menu, you can choose whether to show the entire level or only a scrolling window, as per the original XOR. You can also choose between a reverse engineering of the original BBC game engine (which behaves absolutely identically, with all the quirks), or a smoother approximation. Finally, you can choose whether to fix the mistakes in the original Amiga release that made two of the levels in the second, Procyon set impossible.</p>
+
+<h2>Enigma</h2>
+<p>Enigma was devised by an anonymous author, and subsequently reimplemented by Simon Tatham in 2000. It features twelve levels of falling blocks, exploding bombs, and pushing stuff around - a mixture of Boulderdash, Sokoban and XOR.</p>
+
+<p>In the <span class="cyan">Preferences</span> menu, you can choose between a reverse engineering of the original game engine (which has some subtle display glitches, such as pieces moving through each other) or a smoother approximation.</p>
+
+</div>
+
+<h2>Website</h2>
+<p>Visit the <span class="red">c</span><span class="yellow">h</span><span class="green">r</span><span class="cyan">o</span><span class="blue">m</span><span class="magenta">a</span> website at <a href="http://level7.org.uk/chroma/">http://level7.org.uk/chroma/</a>.</p>
+
+<p>Comments and suggestions regarding <span class="red">c</span><span class="yellow">h</span><span class="green">r</span><span class="cyan">o</span><span class="blue">m</span><span class="magenta">a</span> are always welcome! Email chroma (at) level7 (dot) org (dot) uk, including the word "chroma" in your subject line to boost your chances of beating the unfortunately necessary spam filter.</p>
+
+<h2>Copyright and Licence</h2>
+<p><span class="other">With the exception of the levels for the other games (for which copyright is retained by the original authors), </span><span class="red">c</span><span class="yellow">h</span><span class="green">r</span><span class="cyan">o</span><span class="blue">m</span><span class="magenta">a</span> is Copyright (C) 2010-2019 Amf.</p>
+
+<p>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.</p>
+
+<p>This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.</p>
+
+<p>You should have received a copy of the GNU General Public License along with this program; if not, see <a href="https://www.gnu.org/licenses/">https://www.gnu.org/licenses/</a></p>
+
+</div>
+
+</div>
+
+<script>
+initialise();
+</script>
+
+</body>
+</html>

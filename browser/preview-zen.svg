@@ -1,0 +1,30 @@
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="200" width="400" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="0 0 400 200.00001">
+<metadata>
+<rdf:RDF>
+<cc:Work rdf:about="">
+<dc:format>image/svg+xml</dc:format>
+<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+<dc:title/>
+</cc:Work>
+</rdf:RDF>
+</metadata>
+<g transform="translate(0 -922.52)">
+<rect style="color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;shape-rendering:auto;solid-color:#000000;image-rendering:auto" height="200" width="400" y="922.52" x="0" fill="#fff"/>
+<g transform="translate(50 972.52)">
+<rect fill-opacity="0" height="100" width="100" y="0" x="0" stroke-width="1pt"/>
+<path stroke-linejoin="round" d="m5 35 30-30h30l30 30v30l-30 30h-30l-30-30z" fill-rule="evenodd" stroke="#7f7f7f" stroke-linecap="round" stroke-width="5" fill="#fff"/>
+<path stroke-linejoin="round" d="m5 35 30-30h30l30 30v30l-30 30h-30l-30-30z" fill-rule="evenodd" fill-opacity=".6" stroke="#0080ff" stroke-linecap="round" stroke-width="5" fill="#0080ff"/>
+<path stroke-linejoin="round" d="m9.3414 69.445 19.446-19.445-19.446-19.445 21.214-21.214 19.445 19.446 19.445-19.446 21.214 21.214-19.446 19.445 19.446 19.445-21.214 21.256-19.445-19.488-19.445 19.446-21.214-21.288z" fill-rule="evenodd" fill-opacity=".6" stroke="#0080ff" stroke-linecap="round" stroke-width="5" fill="#0080ff"/>
+</g>
+<g transform="translate(150 972.52)">
+<rect fill-opacity="0" height="100" width="100" y="0" x="0" stroke-width="1pt"/>
+<polygon stroke-linejoin="round" fill-rule="evenodd" stroke-linecap="round" stroke="#ffa000" points="95.651 39.667 72.825 61.916 78.214 93.333 50 78.5 21.786 93.333 27.175 61.916 4.3493 39.667 35.893 35.084 50 6.5 64.107 35.084" stroke-width="5" fill="#fff"/>
+<polygon stroke-linejoin="round" fill-opacity=".8" fill-rule="evenodd" stroke-linecap="round" stroke="#ffa000" points="95.651 39.667 72.825 61.916 78.214 93.333 50 78.5 21.786 93.333 27.175 61.916 4.3493 39.667 35.893 35.084 50 6.5 64.107 35.084" stroke-width="5" fill="#ff0"/>
+</g>
+<g transform="translate(250 972.52)">
+<rect fill-opacity="0" height="100" width="100" y="0" x="0" stroke-width="1pt"/>
+<path stroke-linejoin="round" d="m5 50 90-45v90z" fill-rule="evenodd" stroke="#f00" stroke-linecap="round" stroke-width="5" fill="#fff"/>
+<path stroke-linejoin="round" d="m5 50 90-45v90z" fill-rule="evenodd" fill-opacity=".4" stroke="#f00" stroke-linecap="round" stroke-width="5" fill="#f00"/>
+</g>
+</g>
+</svg>

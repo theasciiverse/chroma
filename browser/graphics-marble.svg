@@ -1,0 +1,687 @@
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="3e3" width="2e3" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2000 3000" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<defs>
+<linearGradient id="linearGradient1503">
+<stop offset="0"/>
+<stop stop-color="#fff" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient1332">
+<stop stop-color="#fff" offset="0"/>
+<stop offset="1"/>
+</linearGradient>
+<filter id="filter3615">
+<feGaussianBlur stdDeviation="0.9"/>
+</filter>
+<filter id="filter3617">
+<feGaussianBlur stdDeviation="0.9"/>
+</filter>
+<filter id="filter3726">
+<feGaussianBlur stdDeviation="0.95"/>
+</filter>
+<filter id="filter2736">
+<feGaussianBlur stdDeviation="4" in="SourceGraphic"/>
+<feDiffuseLighting surfaceScale="8" kernelUnitLength="2" diffuseConstant="1">
+<feDistantLight elevation="60" azimuth="235"/>
+</feDiffuseLighting>
+<feComposite in2="SourceGraphic" k3="0" k2="0" k1="1" result="result0" k4="0" operator="arithmetic"/>
+</filter>
+<filter id="filter5850">
+<feGaussianBlur stdDeviation="2.5" result="result0"/>
+<feDiffuseLighting surfaceScale="5" diffuseConstant="1" result="result2">
+<feDistantLight elevation="60" azimuth="225"/>
+</feDiffuseLighting>
+<feComposite in2="SourceGraphic" k3="0" k2="0" k1="1" result="result4" k4="0" operator="arithmetic"/>
+<feTurbulence numOctaves="9" type="turbulence" baseFrequency="0.020172910662824207"/>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 -1 0.5 "/>
+<feComposite operator="atop" in2="result4"/>
+</filter>
+<filter id="filter3472">
+<feGaussianBlur stdDeviation="2.5" result="result0"/>
+<feDiffuseLighting surfaceScale="5" diffuseConstant="1" result="result2">
+<feDistantLight elevation="60" azimuth="225"/>
+</feDiffuseLighting>
+<feComposite in2="SourceGraphic" k3="0" k2="0" k1="1" result="result4" k4="0" operator="arithmetic"/>
+<feTurbulence numOctaves="9" type="turbulence" baseFrequency="0.020172910662824207"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0.75 0 0 0 0 1 0 0 0 -1 0.75 "/>
+<feComposite operator="atop" in2="result4"/>
+</filter>
+<filter id="filter3506">
+<feGaussianBlur stdDeviation="2.5" result="result0"/>
+<feDiffuseLighting result="result2" diffuseConstant="1" surfaceScale="5">
+<feDistantLight elevation="60" azimuth="225"/>
+</feDiffuseLighting>
+<feComposite in2="SourceGraphic" k3="0" k2="0" k1="1" result="result4" k4="0" operator="arithmetic"/>
+<feTurbulence numOctaves="9" type="turbulence" baseFrequency="0.020172910662824207"/>
+<feColorMatrix values="0 0 0 0 0 0 0 0 0 0.9 0 0 0 0 1 0 0 0 -1 0.75 " type="matrix"/>
+<feComposite operator="atop" in2="result4"/>
+</filter>
+<filter id="filter3378">
+<feGaussianBlur stdDeviation="2" in="SourceGraphic"/>
+<feDiffuseLighting kernelUnitLength="2" diffuseConstant="1" surfaceScale="5">
+<feDistantLight elevation="60" azimuth="235"/>
+</feDiffuseLighting>
+<feComposite in2="SourceGraphic" k3="0" k2="0" k1="1" result="result0" k4="0" operator="arithmetic"/>
+</filter>
+<filter id="filter3614">
+<feGaussianBlur stdDeviation="0.95"/>
+</filter>
+<filter id="filter3610">
+<feGaussianBlur stdDeviation="0.95"/>
+</filter>
+<filter id="filter3606">
+<feGaussianBlur stdDeviation="0.95"/>
+</filter>
+<filter id="filter3602">
+<feGaussianBlur stdDeviation="0.95"/>
+</filter>
+<clipPath id="clipPath3606" clipPathUnits="userSpaceOnUse">
+<path d="m0 100h50v-50h50v-50h-100z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clipPath3620" clipPathUnits="userSpaceOnUse">
+<rect fill-rule="evenodd" height="50" width="50" y="50" x="50"/>
+</clipPath>
+<clipPath id="clipPath3544" clipPathUnits="userSpaceOnUse">
+<path d="m0.0000028398 0v50h50v50h50v-100z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clipPath3550" clipPathUnits="userSpaceOnUse">
+<rect fill-rule="evenodd" height="50" width="50" y="50" x="0"/>
+</clipPath>
+<clipPath id="clipPath3644" clipPathUnits="userSpaceOnUse">
+<path d="m100 100v-50h-50v-50h-50v100z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clipPath3658" clipPathUnits="userSpaceOnUse">
+<rect fill-rule="evenodd" height="50" width="50" y="0" x="50"/>
+</clipPath>
+<clipPath id="clipPath3696" clipPathUnits="userSpaceOnUse">
+<rect fill-rule="evenodd" height="50" width="50" y="0" x="0"/>
+</clipPath>
+<clipPath id="clipPath3674" clipPathUnits="userSpaceOnUse">
+<path d="m100 0h-50v50h-50v50h100z" fill-rule="evenodd"/>
+</clipPath>
+<filter id="filter2725">
+<feGaussianBlur stdDeviation="2.5" result="result0"/>
+<feDiffuseLighting result="result2" diffuseConstant="1" surfaceScale="5">
+<feDistantLight elevation="60" azimuth="45"/>
+</feDiffuseLighting>
+<feComposite in2="SourceGraphic" k3="0" k2="0" k1="1" result="result4" k4="0" operator="arithmetic"/>
+<feTurbulence numOctaves="9" type="turbulence" baseFrequency="0.020172910662824207"/>
+<feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 -1 0.5 " type="matrix"/>
+<feComposite operator="atop" in2="result4"/>
+</filter>
+<filter id="filter3682">
+<feGaussianBlur stdDeviation="1.0125"/>
+</filter>
+<filter id="filter3674">
+<feGaussianBlur stdDeviation="1.0125"/>
+</filter>
+<filter id="filter3662">
+<feGaussianBlur stdDeviation="0.9575"/>
+</filter>
+<filter id="filter3658">
+<feGaussianBlur stdDeviation="0.9125"/>
+</filter>
+<filter id="filter3654">
+<feGaussianBlur stdDeviation="0.94067121"/>
+</filter>
+<filter id="filter3650">
+<feGaussianBlur stdDeviation="0.95"/>
+</filter>
+<filter id="filter3646">
+<feGaussianBlur stdDeviation="0.95"/>
+</filter>
+<filter id="filter3424">
+<feGaussianBlur stdDeviation="2.5" result="result0"/>
+<feDiffuseLighting result="result2" diffuseConstant="1" surfaceScale="5">
+<feDistantLight elevation="60" azimuth="225"/>
+</feDiffuseLighting>
+<feComposite in2="SourceGraphic" k3="0" k2="0" k1="1" result="result4" k4="0" operator="arithmetic"/>
+<feTurbulence numOctaves="9" seed="42" type="turbulence" baseFrequency="0.02"/>
+<feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 -1 0.85 " type="matrix"/>
+<feComposite operator="atop" in2="result4"/>
+</filter>
+<filter id="filter2638">
+<feGaussianBlur stdDeviation="2.5" result="result0"/>
+<feDiffuseLighting surfaceScale="5" diffuseConstant="1" result="result2">
+<feDistantLight elevation="60" azimuth="225"/>
+</feDiffuseLighting>
+<feComposite in2="SourceGraphic" k3="0" k2="0" k1="1" result="result4" k4="0" operator="arithmetic"/>
+<feTurbulence numOctaves="9" type="turbulence" baseFrequency="0.020172910662824207"/>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 0.65 0 0 0 0 1 0 0 0 -1 0.75 "/>
+<feComposite operator="atop" in2="result4"/>
+</filter>
+<filter id="filter3600">
+<feGaussianBlur stdDeviation="2.5" result="result0"/>
+<feDiffuseLighting result="result2" diffuseConstant="1" surfaceScale="5">
+<feDistantLight elevation="60" azimuth="225"/>
+</feDiffuseLighting>
+<feComposite in2="SourceGraphic" k3="0" k2="0" k1="1" result="result4" k4="0" operator="arithmetic"/>
+<feTurbulence numOctaves="9" type="turbulence" baseFrequency="0.020172910662824207"/>
+<feColorMatrix values="0 0 0 0 1 0 0 0 0 0.5 0 0 0 0 0.5 0 0 0 -1 0.75 " type="matrix"/>
+<feComposite operator="atop" in2="result4"/>
+</filter>
+<filter id="filter3504">
+<feGaussianBlur stdDeviation="2.5" result="result0"/>
+<feDiffuseLighting surfaceScale="5" diffuseConstant="1" result="result2">
+<feDistantLight elevation="60" azimuth="225"/>
+</feDiffuseLighting>
+<feComposite in2="SourceGraphic" k3="0" k2="0" k1="1" result="result4" k4="0" operator="arithmetic"/>
+<feTurbulence numOctaves="9" type="turbulence" baseFrequency="0.020172910662824207"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.5 0 0 0 0 1 0 0 0 0 0.5 0 0 0 -1 0.75 "/>
+<feComposite operator="atop" in2="result4"/>
+</filter>
+<filter id="filter3616">
+<feGaussianBlur stdDeviation="2.5" result="result0"/>
+<feDiffuseLighting result="result2" diffuseConstant="1" surfaceScale="5">
+<feDistantLight elevation="60" azimuth="225"/>
+</feDiffuseLighting>
+<feComposite in2="SourceGraphic" k3="0" k2="0" k1="1" result="result4" k4="0" operator="arithmetic"/>
+<feTurbulence numOctaves="9" type="turbulence" baseFrequency="0.020172910662824207"/>
+<feColorMatrix values="0 0 0 0 0.5 0 0 0 0 0.5 0 0 0 0 1 0 0 0 -1 0.75 " type="matrix"/>
+<feComposite operator="atop" in2="result4"/>
+</filter>
+<filter id="filter3686">
+<feGaussianBlur stdDeviation="0.95"/>
+</filter>
+<filter id="filter3690">
+<feGaussianBlur stdDeviation="0.95"/>
+</filter>
+<filter id="filter3694">
+<feGaussianBlur stdDeviation="0.95"/>
+</filter>
+<filter id="filter3698">
+<feGaussianBlur stdDeviation="0.95"/>
+</filter>
+<filter id="filter3702">
+<feGaussianBlur stdDeviation="0.95"/>
+</filter>
+<filter id="filter3706">
+<feGaussianBlur stdDeviation="0.95"/>
+</filter>
+<filter id="filter3710">
+<feGaussianBlur stdDeviation="0.95"/>
+</filter>
+<filter id="filter3714">
+<feGaussianBlur stdDeviation="0.95"/>
+</filter>
+<filter id="filter3600-2" width="1.2">
+<feComposite in2="SourceGraphic" k3="0" k2="0" k1="1" result="result4" k4="0" operator="arithmetic"/>
+<feTurbulence numOctaves="5" seed="7" type="turbulence" baseFrequency="0.02"/>
+<feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 -0.2 0.5 " type="matrix"/>
+<feComposite operator="atop" in2="result4"/>
+</filter>
+<linearGradient id="linearGradient6050" y2="952.36" xlink:href="#linearGradient5870" gradientUnits="userSpaceOnUse" x2="400" y1="952.36" x1="200"/>
+<linearGradient id="linearGradient5870">
+<stop offset="0"/>
+<stop stop-opacity="0" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient6770" y2="952.36" xlink:href="#linearGradient5870" gradientUnits="userSpaceOnUse" x2="400" gradientTransform="translate(0,-200)" y1="952.36" x1="200"/>
+<linearGradient id="linearGradient1478" y2="200" gradientUnits="userSpaceOnUse" x2="400" gradientTransform="translate(0,-200)" x1="400">
+<stop offset="0"/>
+<stop stop-color="#fff" offset="1"/>
+</linearGradient>
+<mask id="mask1474" maskUnits="userSpaceOnUse">
+<rect style="color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;shape-rendering:auto;solid-color:#000000;image-rendering:auto" height="200" width="200" y="-200" x="0" fill="url(#linearGradient1478)"/>
+</mask>
+<filter id="filter3600-23" width="1.2">
+<feComposite in2="SourceGraphic" k3="0" k2="0" k1="1" result="result4" k4="0" operator="arithmetic"/>
+<feTurbulence numOctaves="5" seed="5" type="turbulence" baseFrequency="0.02"/>
+<feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 -0.2 1 " type="matrix"/>
+<feComposite operator="atop" in2="result4"/>
+</filter>
+<linearGradient id="linearGradient1447" y2="1178.2" xlink:href="#linearGradient1332" gradientUnits="userSpaceOnUse" x2="1049.8" gradientTransform="matrix(1 0 0 .5 0 601.62)" y1="1203.2" x1="1049.8"/>
+<linearGradient id="linearGradient1449" y2="1178.2" xlink:href="#linearGradient1332" gradientUnits="userSpaceOnUse" x2="1049.8" gradientTransform="matrix(1 0 0 .5 -2100 -1704.9)" y1="1203.2" x1="1049.8"/>
+<mask id="mask1439" maskUnits="userSpaceOnUse">
+<g transform="translate(-1e3 -1103.3)">
+<rect style="color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;shape-rendering:auto;solid-color:#000000;image-rendering:auto" height="50" width="100" y="1153.2" x="1e3" fill="url(#linearGradient1447)"/>
+<rect style="color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;shape-rendering:auto;solid-color:#000000;image-rendering:auto" transform="scale(-1)" height="50" width="100" y="-1153.3" x="-1100" fill="url(#linearGradient1449)"/>
+</g>
+</mask>
+<linearGradient id="linearGradient1473" y2="1178.2" xlink:href="#linearGradient1332" gradientUnits="userSpaceOnUse" x2="1049.8" gradientTransform="matrix(1 0 0 .5 -193.07 601.62)" y1="1203.2" x1="1049.8"/>
+<linearGradient id="linearGradient1475" y2="1178.2" xlink:href="#linearGradient1332" gradientUnits="userSpaceOnUse" x2="1049.8" gradientTransform="matrix(1 0 0 .5 -1906.9 -1704.9)" y1="1203.2" x1="1049.8"/>
+<mask id="mask1465" maskUnits="userSpaceOnUse">
+<g transform="rotate(90 1005.1 198.16)">
+<rect style="color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;shape-rendering:auto;solid-color:#000000;image-rendering:auto" height="50" width="100" y="1153.2" x="806.93" fill="url(#linearGradient1473)"/>
+<rect style="color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;shape-rendering:auto;solid-color:#000000;image-rendering:auto" transform="scale(-1)" height="50" width="100" y="-1153.3" x="-906.93" fill="url(#linearGradient1475)"/>
+</g>
+</mask>
+<radialGradient id="radialGradient1600" xlink:href="#linearGradient1503" gradientUnits="userSpaceOnUse" cy="1190.8" cx="1412.5" gradientTransform="translate(75 .00027254)" r="12.5"/>
+<radialGradient id="radialGradient1602" xlink:href="#linearGradient1503" gradientUnits="userSpaceOnUse" cy="1190.8" cx="1412.5" gradientTransform="translate(0 .00027254)" r="12.5"/>
+<radialGradient id="radialGradient1604" xlink:href="#linearGradient1503" gradientUnits="userSpaceOnUse" cy="1190.8" cx="1412.5" gradientTransform="translate(0 -75)" r="12.5"/>
+<radialGradient id="radialGradient1606" xlink:href="#linearGradient1503" gradientUnits="userSpaceOnUse" cy="1190.8" cx="1412.5" gradientTransform="translate(75 -75)" r="12.5"/>
+<mask id="mask1574" maskUnits="userSpaceOnUse">
+<g transform="translate(-1400 -1103.3)">
+<rect style="color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;shape-rendering:auto;solid-color:#000000;image-rendering:auto" height="100" width="100" y="1103.3" x="1400" fill="#fff"/>
+<ellipse style="color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;shape-rendering:auto;solid-color:#000000;image-rendering:auto" rx="12.5" ry="12.5" cy="1190.8" cx="1487.5" fill="url(#radialGradient1600)"/>
+<ellipse style="color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;shape-rendering:auto;solid-color:#000000;image-rendering:auto" rx="12.5" ry="12.5" cy="1190.8" cx="1412.5" fill="url(#radialGradient1602)"/>
+<ellipse style="color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;shape-rendering:auto;solid-color:#000000;image-rendering:auto" rx="12.5" ry="12.5" cy="1115.8" cx="1412.5" fill="url(#radialGradient1604)"/>
+<ellipse style="color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;shape-rendering:auto;solid-color:#000000;image-rendering:auto" rx="12.5" ry="12.5" cy="1115.8" cx="1487.5" fill="url(#radialGradient1606)"/>
+<g transform="matrix(0 .75 -1 0 2603.2 510.55)">
+<rect style="color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;shape-rendering:auto;solid-color:#000000;image-rendering:auto" height="50" width="100" y="1153.2" x="806.93" fill="url(#linearGradient1473)"/>
+<rect style="color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;shape-rendering:auto;solid-color:#000000;image-rendering:auto" transform="scale(-1)" height="50" width="100" y="-1153.3" x="-906.93" fill="url(#linearGradient1475)"/>
+</g>
+<g transform="matrix(.75 0 0 1 807.3 -.0014688)">
+<rect style="color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;shape-rendering:auto;solid-color:#000000;image-rendering:auto" height="50" width="100" y="1153.2" x="806.93" fill="url(#linearGradient1473)"/>
+<rect style="color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;shape-rendering:auto;solid-color:#000000;image-rendering:auto" transform="scale(-1)" height="50" width="100" y="-1153.3" x="-906.93" fill="url(#linearGradient1475)"/>
+</g>
+</g>
+</mask>
+<radialGradient id="radialGradient1680" gradientUnits="userSpaceOnUse" cy="1190.8" cx="1412.5" gradientTransform="translate(87.5 -127.5)" r="12.5">
+<stop stop-color="#fff" offset="0"/>
+<stop offset="1"/>
+</radialGradient>
+<radialGradient id="radialGradient1682" gradientUnits="userSpaceOnUse" cy="1190.8" cx="1412.5" gradientTransform="translate(-12.5 -127.5)" r="12.5">
+<stop stop-color="#fff" offset="0"/>
+<stop offset="1"/>
+</radialGradient>
+<radialGradient id="radialGradient1684" gradientUnits="userSpaceOnUse" cy="1190.8" cx="1412.5" gradientTransform="translate(-12.5 -227.5)" r="12.5">
+<stop stop-color="#fff" offset="0"/>
+<stop offset="1"/>
+</radialGradient>
+<radialGradient id="radialGradient1686" gradientUnits="userSpaceOnUse" cy="1190.8" cx="1412.5" gradientTransform="translate(87.5 -227.5)" r="12.5">
+<stop stop-color="#fff" offset="0"/>
+<stop offset="1"/>
+</radialGradient>
+<mask id="mask1666" maskUnits="userSpaceOnUse">
+<g transform="translate(-1400 -963.25)">
+<rect style="color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;shape-rendering:auto;solid-color:#000000;image-rendering:auto" height="100" width="100" y="963.25" x="1400"/>
+<ellipse style="color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;shape-rendering:auto;solid-color:#000000;image-rendering:auto" rx="12.5" ry="12.5" cy="1063.2" cx="1500" fill="url(#radialGradient1680)"/>
+<ellipse style="color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;shape-rendering:auto;solid-color:#000000;image-rendering:auto" rx="12.5" ry="12.5" cy="1063.2" cx="1400" fill="url(#radialGradient1682)"/>
+<ellipse style="color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;shape-rendering:auto;solid-color:#000000;image-rendering:auto" rx="12.5" ry="12.5" cy="963.25" cx="1400" fill="url(#radialGradient1684)"/>
+<ellipse style="color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;shape-rendering:auto;solid-color:#000000;image-rendering:auto" rx="12.5" ry="12.5" cy="963.25" cx="1500" fill="url(#radialGradient1686)"/>
+</g>
+</mask>
+</defs>
+<metadata>
+<rdf:RDF>
+<cc:Work rdf:about="">
+<dc:format>image/svg+xml</dc:format>
+<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+<dc:title/>
+</cc:Work>
+</rdf:RDF>
+</metadata>
+<g transform="translate(0,496.75)">
+<g filter="url(#filter2736)" mask="url(#mask1574)" transform="translate(1400 1103.3)">
+<path stroke-linejoin="round" d="m0 0h100v100h-100z" fill-rule="evenodd" stroke-linecap="round" stroke-width="5" fill="#808080"/>
+</g>
+<g opacity=".25" transform="translate(0 -496.75)" filter="url(#filter3714)" stroke="#000">
+<path stroke-linejoin="round" d="m5 50 90-45v90z" fill-rule="evenodd" stroke="#000" stroke-linecap="round" stroke-width="5"/>
+</g>
+<g opacity=".25" transform="translate(200 -496.75)" filter="url(#filter3710)" stroke="#000">
+<path stroke-linejoin="round" d="m5 50 90-45v90z" fill-rule="evenodd" transform="rotate(90,50,50)" stroke="#000" stroke-linecap="round" stroke-width="5"/>
+</g>
+<g opacity=".25" transform="translate(400 -496.75)" filter="url(#filter3706)" stroke="#000">
+<path stroke-linejoin="round" d="m95 50-90 45v-90z" fill-rule="evenodd" stroke="#000" stroke-linecap="round" stroke-width="5"/>
+</g>
+<g opacity=".25" transform="translate(600 -496.75)" filter="url(#filter3702)" stroke="#000">
+<path stroke-linejoin="round" d="m50 95-45-90h90z" fill-rule="evenodd" stroke="#000" stroke-linecap="round" stroke-width="5"/>
+</g>
+<g opacity=".25" transform="translate(800 -496.75)" filter="url(#filter3698)" stroke="#000">
+<path stroke-linejoin="round" d="m5 5h90v90h-90z" fill-rule="evenodd" stroke="#000" stroke-linecap="round" stroke-width="5"/>
+</g>
+<g opacity=".25" transform="translate(1e3 -496.75)" filter="url(#filter3694)" stroke="#000">
+<path stroke-linejoin="round" d="m5 5h90v90h-90z" fill-rule="evenodd" stroke="#000" stroke-linecap="round" stroke-width="5"/>
+</g>
+<g opacity=".25" transform="translate(1200 -496.75)" filter="url(#filter3690)" stroke="#000">
+<path stroke-linejoin="round" d="m5 5h90v90h-90z" fill-rule="evenodd" stroke="#000" stroke-linecap="round" stroke-width="5"/>
+</g>
+<g opacity=".25" transform="translate(1400 -496.75)" filter="url(#filter3686)" stroke="#000">
+<path stroke-linejoin="round" d="m5 5h90v90h-90z" fill-rule="evenodd" stroke="#000" stroke-linecap="round" stroke-width="5"/>
+</g>
+<g filter="url(#filter3616)" transform="translate(0 -296.75)">
+<path stroke-linejoin="round" d="m5 50 90-45v90z" fill-rule="evenodd" stroke="#00f" stroke-linecap="round" stroke-width="5" fill="#00f"/>
+</g>
+<g filter="url(#filter3616)" transform="translate(200 -296.75)">
+<path stroke-linejoin="round" d="m5 50 90-45v90z" fill-rule="evenodd" transform="rotate(90,50,50)" stroke="#00f" stroke-linecap="round" stroke-width="5" fill="#00f"/>
+</g>
+<g filter="url(#filter3616)" transform="translate(400 -296.75)">
+<path stroke-linejoin="round" d="m95 50-90 45v-90z" fill-rule="evenodd" stroke="#00f" stroke-linecap="round" stroke-width="5" fill="#00f"/>
+</g>
+<g filter="url(#filter3616)" transform="translate(600 -296.75)">
+<path stroke-linejoin="round" d="m50 95-45-90h90z" fill-rule="evenodd" stroke="#00f" stroke-linecap="round" stroke-width="5" fill="#00f"/>
+</g>
+<g transform="translate(800 -296.75)">
+<path stroke-linejoin="round" d="m5 5h90v90h-90z" fill-rule="evenodd" filter="url(#filter3616)" stroke="#00f" stroke-linecap="round" stroke-width="5" fill="#00f"/>
+<path stroke-linejoin="round" d="m5 50 90-45v90z" fill-rule="evenodd" filter="url(#filter3616)" stroke="#c0c0ff" stroke-linecap="round" stroke-width="5" fill="#c0c0ff"/>
+</g>
+<g transform="translate(1e3 -296.75)">
+<path stroke-linejoin="round" d="m5 5h90v90h-90z" fill-rule="evenodd" filter="url(#filter3616)" stroke="#00f" stroke-linecap="round" stroke-width="5" fill="#00f"/>
+<path stroke-linejoin="round" d="m50 5 45 90h-90z" fill-rule="evenodd" filter="url(#filter3616)" stroke="#c0c0ff" stroke-linecap="round" stroke-width="5" fill="#c0c0ff"/>
+</g>
+<g transform="translate(1200 -296.75)">
+<path stroke-linejoin="round" d="m5 5h90v90h-90z" fill-rule="evenodd" filter="url(#filter3616)" stroke="#00f" stroke-linecap="round" stroke-width="5" fill="#00f"/>
+<path stroke-linejoin="round" d="m95 50-90 45v-90z" fill-rule="evenodd" filter="url(#filter3616)" stroke="#c0c0ff" stroke-linecap="round" stroke-width="5" fill="#c0c0ff"/>
+</g>
+<g transform="translate(1400 -296.75)">
+<path stroke-linejoin="round" d="m5 5h90v90h-90z" fill-rule="evenodd" filter="url(#filter3616)" stroke="#00f" stroke-linecap="round" stroke-width="5" fill="#00f"/>
+<path stroke-linejoin="round" d="m50 95-45-90h90z" fill-rule="evenodd" filter="url(#filter3616)" stroke="#c0c0ff" stroke-linecap="round" stroke-width="5" fill="#c0c0ff"/>
+</g>
+<g filter="url(#filter3504)" transform="translate(0 -96.75)">
+<path stroke-linejoin="round" d="m5 50 90-45v90z" fill-rule="evenodd" stroke="#0f0" stroke-linecap="round" stroke-width="5" fill="#0f0"/>
+</g>
+<g filter="url(#filter3504)" transform="translate(200 -96.75)">
+<path stroke-linejoin="round" d="m5 50 90-45v90z" fill-rule="evenodd" transform="rotate(90,50,50)" stroke="#0f0" stroke-linecap="round" stroke-width="5" fill="#0f0"/>
+</g>
+<g filter="url(#filter3504)" transform="translate(400 -96.75)">
+<path stroke-linejoin="round" d="m95 50-90 45v-90z" fill-rule="evenodd" stroke="#0f0" stroke-linecap="round" stroke-width="5" fill="#0f0"/>
+</g>
+<g filter="url(#filter3504)" transform="translate(600 -96.75)">
+<path stroke-linejoin="round" d="m50 95-45-90h90z" fill-rule="evenodd" stroke="#0f0" stroke-linecap="round" stroke-width="5" fill="#0f0"/>
+</g>
+<g transform="translate(800 -96.75)">
+<path stroke-linejoin="round" d="m5 5h90v90h-90z" fill-rule="evenodd" filter="url(#filter3504)" stroke="#0f0" stroke-linecap="round" stroke-width="5" fill="#0f0"/>
+<path stroke-linejoin="round" d="m5 50 90-45v90z" fill-rule="evenodd" filter="url(#filter3504)" stroke="#c0ffc0" stroke-linecap="round" stroke-width="5" fill="#c0ffc0"/>
+</g>
+<g transform="translate(1e3 -96.75)">
+<path stroke-linejoin="round" d="m5 5h90v90h-90z" fill-rule="evenodd" filter="url(#filter3504)" stroke="#0f0" stroke-linecap="round" stroke-width="5" fill="#0f0"/>
+<path stroke-linejoin="round" d="m50 5 45 90h-90z" fill-rule="evenodd" filter="url(#filter3504)" stroke="#c0ffc0" stroke-linecap="round" stroke-width="5" fill="#c0ffc0"/>
+</g>
+<g transform="translate(1200 -96.75)">
+<path stroke-linejoin="round" d="m5 5h90v90h-90z" fill-rule="evenodd" filter="url(#filter3504)" stroke="#0f0" stroke-linecap="round" stroke-width="5" fill="#0f0"/>
+<path stroke-linejoin="round" d="m95 50-90 45v-90z" fill-rule="evenodd" filter="url(#filter3504)" stroke="#c0ffc0" stroke-linecap="round" stroke-width="5" fill="#c0ffc0"/>
+</g>
+<g transform="translate(1400 -96.75)">
+<path stroke-linejoin="round" d="m5 5h90v90h-90z" fill-rule="evenodd" filter="url(#filter3504)" stroke="#0f0" stroke-linecap="round" stroke-width="5" fill="#0f0"/>
+<path stroke-linejoin="round" d="m50 95-45-90h90z" fill-rule="evenodd" filter="url(#filter3504)" stroke="#c0ffc0" stroke-linecap="round" stroke-width="5" fill="#c0ffc0"/>
+</g>
+<g filter="url(#filter3600)" transform="translate(0 103.25)">
+<path stroke-linejoin="round" d="m5 50 90-45v90z" fill-rule="evenodd" stroke="#f00" stroke-linecap="round" stroke-width="5" fill="#f00"/>
+</g>
+<g filter="url(#filter3600)" transform="translate(200 103.25)">
+<path stroke-linejoin="round" d="m5 50 90-45v90z" fill-rule="evenodd" transform="rotate(90,50,50)" stroke="#f00" stroke-linecap="round" stroke-width="5" fill="#f00"/>
+</g>
+<g filter="url(#filter3600)" transform="translate(400 103.25)">
+<path stroke-linejoin="round" d="m95 50-90 45v-90z" fill-rule="evenodd" stroke="#f00" stroke-linecap="round" stroke-width="5" fill="#f00"/>
+</g>
+<g filter="url(#filter3600)" transform="translate(600 103.25)">
+<path stroke-linejoin="round" d="m50 95-45-90h90z" fill-rule="evenodd" stroke="#f00" stroke-linecap="round" stroke-width="5" fill="#f00"/>
+</g>
+<g transform="translate(800 103.25)">
+<path stroke-linejoin="round" d="m5 5h90v90h-90z" fill-rule="evenodd" filter="url(#filter3600)" stroke="#f00" stroke-linecap="round" stroke-width="5" fill="#f00"/>
+<path stroke-linejoin="round" d="m5 50 90-45v90z" fill-rule="evenodd" filter="url(#filter3600)" stroke="#ffc0c0" stroke-linecap="round" stroke-width="5" fill="#ffc0c0"/>
+</g>
+<g transform="translate(1200 103.25)">
+<path stroke-linejoin="round" d="m5 5h90v90h-90z" fill-rule="evenodd" filter="url(#filter3600)" stroke="#f00" stroke-linecap="round" stroke-width="5" fill="#f00"/>
+<path stroke-linejoin="round" d="m95 50-90 45v-90z" fill-rule="evenodd" filter="url(#filter3600)" stroke="#ffc0c0" stroke-linecap="round" stroke-width="5" fill="#ffc0c0"/>
+</g>
+<g transform="translate(1e3 103.25)">
+<path stroke-linejoin="round" d="m5 5h90v90h-90z" fill-rule="evenodd" filter="url(#filter3600)" stroke="#f00" stroke-linecap="round" stroke-width="5" fill="#f00"/>
+<path stroke-linejoin="round" d="m50 5 45 90h-90z" fill-rule="evenodd" filter="url(#filter3600)" stroke="#ffc0c0" stroke-linecap="round" stroke-width="5" fill="#ffc0c0"/>
+</g>
+<g transform="translate(1400 103.25)">
+<path stroke-linejoin="round" d="m5 5h90v90h-90z" fill-rule="evenodd" filter="url(#filter3600)" stroke="#f00" stroke-linecap="round" stroke-width="5" fill="#f00"/>
+<path stroke-linejoin="round" d="m50 95-45-90h90z" fill-rule="evenodd" filter="url(#filter3600)" stroke="#ffc0c0" stroke-linecap="round" stroke-width="5" fill="#ffc0c0"/>
+</g>
+<g transform="translate(0 -696.75)">
+<circle stroke-linejoin="round" fill-rule="evenodd" cx="50" stroke-linecap="round" transform="translate(200 1e3)" stroke="#c9f" filter="url(#filter2638)" cy="50" r="45" stroke-width="5" fill="#c9f"/>
+</g>
+<g stroke-linejoin="round" fill-rule="evenodd" transform="translate(0 303.25)" stroke-linecap="round">
+<circle cx="50" transform="translate(400)" stroke="#c9f" filter="url(#filter2638)" cy="50" r="45" stroke-width="10" fill="#c9f"/>
+<circle cx="50" transform="translate(400)" stroke="#f3e6ff" filter="url(#filter2638)" cy="50" r="30" stroke-width="5" fill="#f3e6ff"/>
+</g>
+<g transform="translate(0 -696.75)">
+<polygon stroke-linejoin="round" fill-rule="evenodd" stroke-linecap="round" transform="translate(600 1e3)" filter="url(#filter3424)" stroke="#ffff40" points="50 6.5 64.107 35.084 95.651 39.667 72.825 61.916 78.214 93.333 50 78.5 21.786 93.333 27.175 61.916 4.3493 39.667 35.893 35.084" stroke-width="5" fill="#ffff40"/>
+</g>
+<g stroke-linejoin="round" fill-rule="evenodd" transform="translate(800 303.25)" filter="url(#filter3378)" stroke="#ffc080" stroke-linecap="square" stroke-width="6.25" fill="#ffc080">
+<circle cx="37.5" cy="37.5" r="5"/>
+<circle cx="12.5" cy="12.5" r="5"/>
+<circle cx="62.5" cy="12.5" r="5"/>
+<circle cx="87.5" cy="37.5" r="5"/>
+<circle cx="12.5" cy="62.5" r="5"/>
+<circle cx="62.5" cy="62.5" r="5"/>
+<circle cx="37.5" cy="87.5" r="5"/>
+<circle cx="87.5" cy="87.5" r="5"/>
+</g>
+<g stroke-linejoin="round" fill-rule="evenodd" transform="translate(1e3 303.25)" filter="url(#filter3378)" stroke="#ffc080" stroke-linecap="square" stroke-width="6.25" fill="#ffc080">
+<circle cx="37.5" cy="37.5" r="5"/>
+<circle cx="12.5" cy="12.5" r="5"/>
+<circle cx="62.5" cy="12.5" r="5"/>
+<circle cx="87.5" cy="37.5" r="5"/>
+<circle cx="12.5" cy="62.5" r="5"/>
+<circle cx="62.5" cy="62.5" r="5"/>
+<circle cx="37.5" cy="87.5" r="5"/>
+<circle cx="87.5" cy="87.5" r="5"/>
+<ellipse rx="7" ry="7.5" cy="12.5" cx="37.5"/>
+<ellipse rx="7" ry="7.5" cy="12.5" cx="87.5"/>
+<ellipse rx="7" ry="7.5" cy="62.5" cx="87.5"/>
+<ellipse rx="7" ry="7.5" cy="62.5" cx="37.5"/>
+<ellipse rx="7" ry="7.5" cy="37.5" cx="12.5"/>
+<ellipse rx="7" ry="7.5" cy="37.5" cx="62.5"/>
+<ellipse rx="7" ry="7.5" cy="87.5" cx="62.5"/>
+<ellipse rx="7" ry="7.5" cy="87.5" cx="12.5"/>
+</g>
+<g stroke-linejoin="round" transform="translate(1200 303.25)" filter="url(#filter3378)" stroke="#ffc080" stroke-linecap="square" stroke-width="6.25" fill="none">
+<path d="m0 0c12.5 10 37.5 10 50 0s37.5-10 50 0" transform="translate(0,12.5)"/>
+<path d="m0 0c12.5 10 37.5 10 50 0s37.5-10 50 0" transform="translate(0,37.5)"/>
+<path d="m0 0c12.5 10 37.5 10 50 0s37.5-10 50 0" transform="translate(0,62.5)"/>
+<path d="m0 0c12.5 10 37.5 10 50 0s37.5-10 50 0" transform="translate(0,87.5)"/>
+</g>
+<g transform="translate(0 303.25)" filter="url(#filter3378)" stroke="#ffc080">
+<g stroke-linejoin="round" transform="rotate(90,750,750)" stroke="#ffc080" stroke-linecap="square" stroke-width="6.25" fill="none">
+<path d="m0 0c12.5 10 37.5 10 50 0s37.5-10 50 0" transform="translate(0,12.5)"/>
+<path d="m0 0c12.5 10 37.5 10 50 0s37.5-10 50 0" transform="translate(0,37.5)"/>
+<path d="m0 0c12.5 10 37.5 10 50 0s37.5-10 50 0" transform="translate(0,62.5)"/>
+<path d="m0 0c12.5 10 37.5 10 50 0s37.5-10 50 0" transform="translate(0,87.5)"/>
+</g>
+</g>
+<g filter="url(#filter3646)" transform="translate(0 -696.75)">
+<circle opacity=".25" stroke-linejoin="round" fill-rule="evenodd" cx="50" stroke-linecap="round" transform="translate(200,1200)" stroke="#000" cy="50" r="45" stroke-width="5"/>
+</g>
+<g filter="url(#filter3650)" transform="translate(0 -696.75)">
+<circle opacity=".25" stroke-linejoin="round" fill-rule="evenodd" cx="50" stroke-linecap="round" transform="translate(400,1200)" stroke="#000" cy="50" r="45" stroke-width="5"/>
+</g>
+<g filter="url(#filter3654)" transform="translate(0 -696.75)">
+<polygon opacity=".25" stroke-linejoin="round" fill-rule="evenodd" stroke-linecap="round" transform="translate(600,1200)" stroke="#000" points="50 6.5 64.107 35.084 95.651 39.667 72.825 61.916 78.214 93.333 50 78.5 21.786 93.333 27.175 61.916 4.3493 39.667 35.893 35.084" stroke-width="5"/>
+</g>
+<g opacity=".25" stroke-linejoin="round" fill-rule="evenodd" transform="translate(800 503.25)" filter="url(#filter3658)" stroke="#000" stroke-linecap="square" stroke-width="6.25">
+<circle cx="37.5" cy="37.5" r="5"/>
+<circle cx="12.5" cy="12.5" r="5"/>
+<circle cx="62.5" cy="12.5" r="5"/>
+<circle cx="87.5" cy="37.5" r="5"/>
+<circle cx="12.5" cy="62.5" r="5"/>
+<circle cx="62.5" cy="62.5" r="5"/>
+<circle cx="37.5" cy="87.5" r="5"/>
+<circle cx="87.5" cy="87.5" r="5"/>
+</g>
+<g opacity=".25" stroke-linejoin="round" fill-rule="evenodd" transform="translate(1e3 503.25)" filter="url(#filter3662)" stroke="#000" stroke-linecap="square" stroke-width="6.25">
+<circle cx="37.5" cy="37.5" r="5"/>
+<circle cx="12.5" cy="12.5" r="5"/>
+<circle cx="62.5" cy="12.5" r="5"/>
+<circle cx="87.5" cy="37.5" r="5"/>
+<circle cx="12.5" cy="62.5" r="5"/>
+<circle cx="62.5" cy="62.5" r="5"/>
+<circle cx="37.5" cy="87.5" r="5"/>
+<circle cx="87.5" cy="87.5" r="5"/>
+<ellipse rx="7" ry="7.5" cy="12.5" cx="37.5"/>
+<ellipse rx="7" ry="7.5" cy="12.5" cx="87.5"/>
+<ellipse rx="7" ry="7.5" cy="62.5" cx="87.5"/>
+<ellipse rx="7" ry="7.5" cy="62.5" cx="37.5"/>
+<ellipse rx="7" ry="7.5" cy="37.5" cx="12.5"/>
+<ellipse rx="7" ry="7.5" cy="37.5" cx="62.5"/>
+<ellipse rx="7" ry="7.5" cy="87.5" cx="62.5"/>
+<ellipse rx="7" ry="7.5" cy="87.5" cx="12.5"/>
+</g>
+<g opacity=".25" stroke-linejoin="round" transform="translate(1200 503.25)" filter="url(#filter3674)" stroke="#000" stroke-linecap="square" stroke-width="6.25" fill="none">
+<path d="m0 0c12.5 10 37.5 10 50 0s37.5-10 50 0" transform="translate(0,12.5)"/>
+<path d="m0 0c12.5 10 37.5 10 50 0s37.5-10 50 0" transform="translate(0,37.5)"/>
+<path d="m0 0c12.5 10 37.5 10 50 0s37.5-10 50 0" transform="translate(0,62.5)"/>
+<path d="m0 0c12.5 10 37.5 10 50 0s37.5-10 50 0" transform="translate(0,87.5)"/>
+</g>
+<g opacity=".25" transform="translate(0 503.25)" filter="url(#filter3682)" stroke="#000" fill="none">
+<g stroke-linejoin="round" transform="rotate(90,750,750)" stroke="#000" stroke-linecap="square" stroke-width="6.25" fill="none">
+<path d="m0 0c12.5 10 37.5 10 50 0s37.5-10 50 0" transform="translate(0,12.5)"/>
+<path d="m0 0c12.5 10 37.5 10 50 0s37.5-10 50 0" transform="translate(0,37.5)"/>
+<path d="m0 0c12.5 10 37.5 10 50 0s37.5-10 50 0" transform="translate(0,62.5)"/>
+<path d="m0 0c12.5 10 37.5 10 50 0s37.5-10 50 0" transform="translate(0,87.5)"/>
+</g>
+</g>
+<g transform="translate(200 703.25)">
+<rect fill-opacity="0" height="100" width="100" y="0" x="0" stroke-width="1pt"/>
+<path stroke-linejoin="round" d="m5 5h90v90h-90z" fill-rule="evenodd" stroke="#808080" stroke-linecap="round" stroke-width="5" fill="#fff"/>
+<path stroke-linejoin="round" d="m5 5h90v90h-90z" fill-rule="evenodd" filter="url(#filter5850)" stroke="#c0c0c0" stroke-linecap="round" stroke-width="5" fill="#c0c0c0"/>
+<path stroke-linejoin="round" d="m15 15h70v70h-70z" fill-rule="evenodd" filter="url(#filter2725)" stroke="#c0c0c0" stroke-linecap="round" stroke-width="5" fill="#c0c0c0"/>
+<path stroke-linejoin="round" d="m25 25h50v50h-50z" fill-rule="evenodd" filter="url(#filter2725)" stroke="#c0c0c0" stroke-linecap="round" stroke-width="5" fill="#c0c0c0"/>
+<path stroke-linejoin="round" d="m35 35h30v30h-30z" fill-rule="evenodd" filter="url(#filter2725)" stroke="#c0c0c0" stroke-linecap="round" stroke-width="5" fill="#c0c0c0"/>
+<path stroke-linejoin="round" d="m45 45h10v10h-10z" fill-rule="evenodd" filter="url(#filter2725)" stroke="#c0c0c0" stroke-linecap="round" stroke-width="5" fill="#c0c0c0"/>
+</g>
+<g transform="translate(400 703.25)">
+<rect fill-opacity="0" height="100" width="100" y="0" x="0" stroke-width="1pt"/>
+<path stroke-linejoin="round" d="m5 5h90v90h-90z" fill-rule="evenodd" filter="url(#filter5850)" stroke="#c0c0c0" stroke-linecap="round" stroke-width="5" fill="#c0c0c0"/>
+<path stroke-linejoin="round" d="m40 30h20v40h-20z" fill-rule="evenodd" filter="url(#filter5850)" stroke="#808080" stroke-linecap="round" stroke-width="5" fill="#808080"/>
+<circle fill-rule="evenodd" cx="80" filter="url(#filter5850)" cy="50" r="5" stroke-width="1pt" fill="#808080"/>
+<circle fill-rule="evenodd" cx="20" filter="url(#filter5850)" cy="50" r="5" stroke-width="1pt" fill="#808080"/>
+</g>
+<g fill-rule="evenodd" transform="translate(600 703.25)">
+<path stroke-linejoin="round" d="m5 5v90h10v-80h70v80h10v-90z" filter="url(#filter5850)" stroke="#808080" stroke-linecap="round" stroke-width="5" fill="#808080"/>
+<path stroke-linejoin="round" d="m20 20h60v75h-60z" filter="url(#filter5850)" stroke="#c0c0c0" stroke-linecap="round" stroke-width="5" fill="#c0c0c0"/>
+<circle cx="70" filter="url(#filter5850)" cy="55" r="5" stroke-width="1pt" fill="#808080"/>
+</g>
+<g stroke-linejoin="round" stroke-linecap="round" stroke-width="5" transform="translate(800 -1296.8)">
+<g clip-path="url(#clipPath3696)" transform="translate(0 2e3)" filter="url(#filter3378)" stroke="#4040c0">
+<path d="m5 5h90v90h-90z" fill="none"/>
+<path d="m15 15h10m10 0h10m20 0h20m-80 10h20m10 0h10m10 0h20m10 0h10m-80 10h20m10 0h20m10 0h10m-50 10h10m10 0h10m20 0h10m-50 10h10m-50 10h20m10 0h10m10 0h10m-40 10h50m-60 10h10m10 0h10m20 0h20" fill-rule="evenodd" fill-opacity=".4" fill="#800000"/>
+<path d="m15 35v20m0 20v10m10-70v10m0 20v20m0 20v10m10-80v10m0 30v10m0 10v10m10-60v40m10-60v10m0 10v10m0 40v20m10-80v10m0 10v30m10-40v20m0 10v20m10-30v40" fill-rule="evenodd" fill-opacity=".4" fill="#800000"/>
+</g>
+<g clip-path="url(#clipPath3674)" transform="translate(-.0000012725 2e3)" filter="url(#filter3378)" stroke="#c04040">
+<path d="m5 5h90v90h-90z" fill="none"/>
+<path d="m15 15h10m10 0h10m20 0h20m-80 10h20m10 0h10m10 0h20m10 0h10m-80 10h20m10 0h20m10 0h10m-50 10h10m10 0h10m20 0h10m-50 10h10m-50 10h20m10 0h10m10 0h10m-40 10h50m-60 10h10m10 0h10m20 0h20" fill-rule="evenodd" fill-opacity=".4" fill="#800000"/>
+<path d="m15 35v20m0 20v10m10-70v10m0 20v20m0 20v10m10-80v10m0 30v10m0 10v10m10-60v40m10-60v10m0 10v10m0 40v20m10-80v10m0 10v30m10-40v20m0 10v20m10-30v40" fill-rule="evenodd" fill-opacity=".4" fill="#800000"/>
+</g>
+</g>
+<g stroke-linejoin="round" stroke-linecap="round" stroke-width="5" transform="translate(1e3 -1296.8)">
+<g clip-path="url(#clipPath3644)" transform="translate(0 2e3)" filter="url(#filter3378)" stroke="#c04040">
+<path d="m5 5h90v90h-90z" fill="none"/>
+<path d="m15 15h10m10 0h10m20 0h20m-80 10h20m10 0h10m10 0h20m10 0h10m-80 10h20m10 0h20m10 0h10m-50 10h10m10 0h10m20 0h10m-50 10h10m-50 10h20m10 0h10m10 0h10m-40 10h50m-60 10h10m10 0h10m20 0h20" fill-rule="evenodd" fill-opacity=".4" fill="#800000"/>
+<path d="m15 35v20m0 20v10m10-70v10m0 20v20m0 20v10m10-80v10m0 30v10m0 10v10m10-60v40m10-60v10m0 10v10m0 40v20m10-80v10m0 10v30m10-40v20m0 10v20m10-30v40" fill-rule="evenodd" fill-opacity=".4" fill="#800000"/>
+</g>
+<g clip-path="url(#clipPath3658)" transform="translate(0 2e3)" filter="url(#filter3378)" stroke="#4040c0">
+<path d="m5 5h90v90h-90z" fill="none"/>
+<path d="m15 15h10m10 0h10m20 0h20m-80 10h20m10 0h10m10 0h20m10 0h10m-80 10h20m10 0h20m10 0h10m-50 10h10m10 0h10m20 0h10m-50 10h10m-50 10h20m10 0h10m10 0h10m-40 10h50m-60 10h10m10 0h10m20 0h20" fill-rule="evenodd" fill-opacity=".4" fill="#800000"/>
+<path d="m15 35v20m0 20v10m10-70v10m0 20v20m0 20v10m10-80v10m0 30v10m0 10v10m10-60v40m10-60v10m0 10v10m0 40v20m10-80v10m0 10v30m10-40v20m0 10v20m10-30v40" fill-rule="evenodd" fill-opacity=".4" fill="#800000"/>
+</g>
+</g>
+<g stroke-linejoin="round" stroke-linecap="round" stroke-width="5" transform="translate(1200 -1296.8)">
+<g clip-path="url(#clipPath3544)" transform="translate(0 2e3)" filter="url(#filter3378)" stroke="#c04040">
+<path d="m5 5h90v90h-90z" fill="none"/>
+<path d="m15 15h10m10 0h10m20 0h20m-80 10h20m10 0h10m10 0h20m10 0h10m-80 10h20m10 0h20m10 0h10m-50 10h10m10 0h10m20 0h10m-50 10h10m-50 10h20m10 0h10m10 0h10m-40 10h50m-60 10h10m10 0h10m20 0h20" fill-rule="evenodd" fill-opacity=".4" fill="#800000"/>
+<path d="m15 35v20m0 20v10m10-70v10m0 20v20m0 20v10m10-80v10m0 30v10m0 10v10m10-60v40m10-60v10m0 10v10m0 40v20m10-80v10m0 10v30m10-40v20m0 10v20m10-30v40" fill-rule="evenodd" fill-opacity=".4" fill="#800000"/>
+</g>
+<g clip-path="url(#clipPath3550)" transform="translate(0 2e3)" filter="url(#filter3378)" stroke="#4040c0">
+<path d="m5 5h90v90h-90z" fill="none"/>
+<path d="m15 15h10m10 0h10m20 0h20m-80 10h20m10 0h10m10 0h20m10 0h10m-80 10h20m10 0h20m10 0h10m-50 10h10m10 0h10m20 0h10m-50 10h10m-50 10h20m10 0h10m10 0h10m-40 10h50m-60 10h10m10 0h10m20 0h20" fill-rule="evenodd" fill-opacity=".4" fill="#800000"/>
+<path d="m15 35v20m0 20v10m10-70v10m0 20v20m0 20v10m10-80v10m0 30v10m0 10v10m10-60v40m10-60v10m0 10v10m0 40v20m10-80v10m0 10v30m10-40v20m0 10v20m10-30v40" fill-rule="evenodd" fill-opacity=".4" fill="#800000"/>
+</g>
+</g>
+<g stroke-linejoin="round" stroke-linecap="round" stroke-width="5" transform="translate(1400 -1296.8)">
+<g clip-path="url(#clipPath3606)" transform="translate(0 2e3)" filter="url(#filter3378)" stroke="#c04040">
+<path d="m5 5h90v90h-90z" fill="none"/>
+<path d="m15 15h10m10 0h10m20 0h20m-80 10h20m10 0h10m10 0h20m10 0h10m-80 10h20m10 0h20m10 0h10m-50 10h10m10 0h10m20 0h10m-50 10h10m-50 10h20m10 0h10m10 0h10m-40 10h50m-60 10h10m10 0h10m20 0h20" fill-rule="evenodd" fill-opacity=".4" fill="#800000"/>
+<path d="m15 35v20m0 20v10m10-70v10m0 20v20m0 20v10m10-80v10m0 30v10m0 10v10m10-60v40m10-60v10m0 10v10m0 40v20m10-80v10m0 10v30m10-40v20m0 10v20m10-30v40" fill-rule="evenodd" fill-opacity=".4" fill="#800000"/>
+</g>
+<g clip-path="url(#clipPath3620)" transform="translate(0 2e3)" filter="url(#filter3378)" stroke="#4040c0">
+<path d="m5 5h90v90h-90z" fill="none"/>
+<path d="m15 15h10m10 0h10m20 0h20m-80 10h20m10 0h10m10 0h20m10 0h10m-80 10h20m10 0h20m10 0h10m-50 10h10m10 0h10m20 0h10m-50 10h10m-50 10h20m10 0h10m10 0h10m-40 10h50m-60 10h10m10 0h10m20 0h20" fill-rule="evenodd" fill-opacity=".4" fill="#800000"/>
+<path d="m15 35v20m0 20v10m10-70v10m0 20v20m0 20v10m10-80v10m0 30v10m0 10v10m10-60v40m10-60v10m0 10v10m0 40v20m10-80v10m0 10v30m10-40v20m0 10v20m10-30v40" fill-rule="evenodd" fill-opacity=".4" fill="#800000"/>
+</g>
+</g>
+<g opacity=".25" transform="translate(200 903.25)" filter="url(#filter3602)" stroke="#000">
+<path stroke-linejoin="round" d="m5 5h90v90h-90z" fill-rule="evenodd" stroke="#000" stroke-linecap="round" stroke-width="5"/>
+</g>
+<g opacity=".25" transform="translate(400 903.25)" filter="url(#filter3606)" stroke="#000">
+<path stroke-linejoin="round" d="m5 5h90v90h-90z" fill-rule="evenodd" stroke="#000" stroke-linecap="round" stroke-width="5"/>
+</g>
+<g opacity=".25" fill-rule="evenodd" transform="translate(600 903.25)" filter="url(#filter3610)" stroke="#000">
+<path stroke-linejoin="round" d="m5 5v90h10v-80h70v80h10v-90z" stroke-linecap="round" stroke-width="5"/>
+<path stroke-linejoin="round" d="m20 20h60v75h-60z" stroke-linecap="round" stroke-width="5"/>
+<circle cx="70" cy="55" r="5" stroke-width="1pt"/>
+</g>
+<g opacity=".25" stroke-linejoin="round" transform="translate(800 903.25)" filter="url(#filter3614)" stroke="#000" stroke-linecap="round" stroke-width="5">
+<path d="m5 5h90v90h-90z" fill="none"/>
+<path d="m15 15h10m10 0h10m20 0h20m-80 10h20m10 0h10m10 0h20m10 0h10m-80 10h20m10 0h20m10 0h10m-50 10h10m10 0h10m20 0h10m-50 10h10m-50 10h20m10 0h10m10 0h10m-40 10h50m-60 10h10m10 0h10m20 0h20" fill-rule="evenodd" fill-opacity=".4" fill="#800000"/>
+<path d="m15 35v20m0 20v10m10-70v10m0 20v20m0 20v10m10-80v10m0 30v10m0 10v10m10-60v40m10-60v10m0 10v10m0 40v20m10-80v10m0 10v30m10-40v20m0 10v20m10-30v40" fill-rule="evenodd" fill-opacity=".4" fill="#800000"/>
+</g>
+<g stroke-linejoin="round" transform="translate(1e3 903.25)" filter="url(#filter3378)" stroke="#c04040" stroke-linecap="round" stroke-width="5">
+<path d="m5 5h90v90h-90z" fill="none"/>
+<path d="m15 15h10m10 0h10m20 0h20m-80 10h20m10 0h10m10 0h20m10 0h10m-80 10h20m10 0h20m10 0h10m-50 10h10m10 0h10m20 0h10m-50 10h10m-50 10h20m10 0h10m10 0h10m-40 10h50m-60 10h10m10 0h10m20 0h20" fill-rule="evenodd" fill-opacity=".4" fill="#800000"/>
+<path d="m15 35v20m0 20v10m10-70v10m0 20v20m0 20v10m10-80v10m0 30v10m0 10v10m10-60v40m10-60v10m0 10v10m0 40v20m10-80v10m0 10v30m10-40v20m0 10v20m10-30v40" fill-rule="evenodd" fill-opacity=".4" fill="#800000"/>
+</g>
+<g stroke-linejoin="round" transform="translate(1200 903.25)" filter="url(#filter3378)" stroke="#4040c0" stroke-linecap="round" stroke-width="5">
+<path d="m5 5h90v90h-90z" fill="none"/>
+<path d="m15 15h10m10 0h10m20 0h20m-80 10h20m10 0h10m10 0h20m10 0h10m-80 10h20m10 0h20m10 0h10m-50 10h10m10 0h10m20 0h10m-50 10h10m-50 10h20m10 0h10m10 0h10m-40 10h50m-60 10h10m10 0h10m20 0h20" fill-rule="evenodd" fill-opacity=".4" fill="#800000"/>
+<path d="m15 35v20m0 20v10m10-70v10m0 20v20m0 20v10m10-80v10m0 30v10m0 10v10m10-60v40m10-60v10m0 10v10m0 40v20m10-80v10m0 10v30m10-40v20m0 10v20m10-30v40" fill-rule="evenodd" fill-opacity=".4" fill="#800000"/>
+</g>
+<g stroke-linejoin="round" fill-rule="evenodd" transform="translate(0 1103.3)" stroke-linecap="round" stroke-width="5">
+<path d="m5 35 30-30h30l30 30v30l-30 30h-30l-30-30z" filter="url(#filter3472)" stroke="#0080ff" fill="#0080ff"/>
+<path d="m5 35h30v-30h30v30h30v30h-30v30h-30v-30h-30z" filter="url(#filter3506)" stroke="#00c0ff" fill="#00e0ff"/>
+</g>
+<g stroke-linejoin="round" fill-rule="evenodd" transform="translate(200 1103.3)" stroke-linecap="round" stroke-width="5">
+<path d="m5 35 30-30h30l30 30v30l-30 30h-30l-30-30z" filter="url(#filter3472)" stroke="#0080ff" fill="#0080ff"/>
+<path d="m9.3414 69.445 19.446-19.445-19.446-19.445 21.214-21.214 19.445 19.446 19.445-19.446 21.214 21.214-19.446 19.445 19.446 19.445-21.214 21.256-19.445-19.488-19.445 19.446-21.214-21.288z" filter="url(#filter3506)" stroke="#00e1ff" fill="#00e0ff"/>
+</g>
+<g stroke-linejoin="round" fill-rule="evenodd" transform="translate(400 1103.3)" stroke-linecap="round" stroke-width="5">
+<path d="m5 35 30-30h30l30 30v30l-30 30h-30l-30-30z" filter="url(#filter5850)" stroke="#808080" fill="#808080"/>
+<path d="m5 35h30v-30h30v30h30v30h-30v30h-30v-30h-30z" filter="url(#filter5850)" stroke="#c0c0c0" fill="#c0c0c0"/>
+</g>
+<g stroke-linejoin="round" fill-rule="evenodd" transform="translate(600 1103.3)" stroke-linecap="round" stroke-width="5">
+<path d="m5 35 30-30h30l30 30v30l-30 30h-30l-30-30z" filter="url(#filter5850)" stroke="#808080" fill="#808080"/>
+<path d="m9.3414 69.445 19.446-19.445-19.446-19.445 21.214-21.214 19.445 19.446 19.445-19.446 21.214 21.214-19.446 19.445 19.446 19.445-21.214 21.256-19.445-19.488-19.445 19.446-21.214-21.288z" filter="url(#filter5850)" stroke="#c0c0c0" fill="#c0c0c0"/>
+</g>
+<g stroke-linejoin="round" fill-rule="evenodd" mask="url(#mask1666)" transform="translate(800 1103.3)" filter="url(#filter2736)" stroke-linecap="round" stroke-width="5" fill="#808080">
+<path d="m0-50h100v200h-100z"/>
+<path d="m-50 0h200v100h-200z"/>
+</g>
+<g filter="url(#filter2736)" mask="url(#mask1439)" transform="translate(1e3 1103.3)">
+<path stroke-linejoin="round" d="m-50 0h200v100h-200z" fill-rule="evenodd" stroke-linecap="round" stroke-width="5" fill="#808080"/>
+</g>
+<g filter="url(#filter2736)" mask="url(#mask1465)" transform="translate(1200 1103.3)">
+<path stroke-linejoin="round" d="m0-50h100v200h-100z" fill-rule="evenodd" stroke-linecap="round" stroke-width="5" fill="#808080"/>
+</g>
+<g opacity=".25" stroke-linejoin="round" fill-rule="evenodd" transform="translate(0 1303.3)" filter="url(#filter3726)" stroke="#000" stroke-linecap="round" stroke-width="5">
+<path d="m5 35 30-30h30l30 30v30l-30 30h-30l-30-30z"/>
+<path d="m5 35h30v-30h30v30h30v30h-30v30h-30v-30h-30z"/>
+</g>
+<g opacity=".25" transform="matrix(1.1111 0 0 1.1111 594.44 1297.7)">
+<path d="m5 5h90v90h-90z" fill-rule="evenodd"/>
+</g>
+<g opacity=".25" transform="matrix(2.2222 0 0 1.0556 938.89 1300.5)" filter="url(#filter3615)">
+<path d="m5 5h90v90h-90z" fill-rule="evenodd"/>
+</g>
+<g opacity=".25" transform="matrix(1.0556 0 0 2.2222 1197.2 1242.1)" filter="url(#filter3615)">
+<path d="m5 5h90v90h-90z" fill-rule="evenodd"/>
+</g>
+<g opacity=".25" transform="matrix(1.0556 0 0 1.0556 1397.2 1300.5)" filter="url(#filter3617)">
+<path d="m5 5h90v90h-90z" fill-rule="evenodd"/>
+</g>
+<g opacity=".25" transform="translate(0 -696.75)">
+<g transform="matrix(2.2222 0 0 1.0556 738.89 1997.2)" filter="url(#filter3615)">
+<path d="m5 5h90v90h-90z" fill-rule="evenodd"/>
+</g>
+<g transform="matrix(1.0556 0 0 2.2222 797.22 1938.9)" filter="url(#filter3615)">
+<path d="m5 5h90v90h-90z" fill-rule="evenodd"/>
+</g>
+</g>
+<g style="" transform="matrix(4 0 0 4 100 1603.2)">
+<rect fill-rule="evenodd" height="200" filter="url(#filter3600-2)" width="200" y="0" x="0"/>
+<g transform="translate(-200)">
+<rect fill-rule="evenodd" height="200" filter="url(#filter3600-2)" width="200" y="0" x="200" fill="url(#linearGradient6050)"/>
+</g>
+<g mask="url(#mask1474)" transform="translate(0,200)">
+<rect fill-rule="evenodd" height="200" filter="url(#filter3600-2)" width="200" y="-200" x="0"/>
+<g transform="translate(-200)">
+<rect fill-rule="evenodd" height="200" filter="url(#filter3600-2)" width="200" y="-200" x="200" fill="url(#linearGradient6770)"/>
+</g>
+</g>
+</g>
+<g style="" transform="matrix(4 0 0 4 1100 1603.2)">
+<rect fill-rule="evenodd" height="200" filter="url(#filter3600-23)" width="200" y="0" x="0"/>
+<g transform="translate(-200)">
+<rect fill-rule="evenodd" height="200" filter="url(#filter3600-23)" width="200" y="0" x="200" fill="url(#linearGradient6050)"/>
+</g>
+<g mask="url(#mask1474)" transform="translate(0,200)">
+<rect fill-rule="evenodd" height="200" filter="url(#filter3600-23)" width="200" y="-200" x="0"/>
+<g transform="translate(-200)">
+<rect fill-rule="evenodd" height="200" filter="url(#filter3600-23)" width="200" y="-200" x="200" fill="url(#linearGradient6770)"/>
+</g>
+</g>
+</g>
+</g>
+</svg>
