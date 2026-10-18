@@ -1,0 +1,6 @@
+out/
+stage/
+dist/
+__pycache__/
+*.o
+chroma-curses
