@@ -49,9 +49,11 @@ extern int options_xor_display;
 struct level* plevelcurrent = NULL;
 
 #ifdef __WIN32__
+int main(int argc, char **argv);
+
 int WINAPI WinMain (HINSTANCE hInstance, HINSTANCE hPrevInstance, PSTR szCmdLine, int iCmdShow)
 {
-    main(0, NULL);
+    return main(0, NULL);
 }
 #endif
 
