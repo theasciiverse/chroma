@@ -24,6 +24,7 @@ int isfile(char *filename);
 int isdirectory(char *filename);
 
 void getfilename(char *filename, char *fullfilename, int create, int system);
+int executabledirectory(char *directory, size_t size);
 
 void fatal(char *);
 void warning(char *);

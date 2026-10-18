@@ -32,6 +32,10 @@
 #include "windows.h"
 #include "shlobj.h"
 #endif
+#ifdef __APPLE__
+#include <stdint.h>
+#include <mach-o/dyld.h>
+#endif
 
 #include "chroma.h"
 #include "level.h"
@@ -102,6 +106,92 @@ void ensuredirectory(char *directory)
     }
 }
 
+/* Creates a directory and any missing parents. */
+static void ensuredirectories(char *directory)
+{
+    char path[FILENAME_MAX];
+    char *p;
+
+    snprintf(path, sizeof(path), "%s", directory);
+    for(p = path + 1; *p; p ++)
+    {
+        if(*p == '/')
+        {
+            *p = 0;
+            if(!isdirectory(path))
+#ifdef __WIN32__
+                mkdir(path);
+#else
+                mkdir(path, 0755);
+#endif
+            *p = '/';
+        }
+    }
+    ensuredirectory(path);
+}
+
+#ifndef __WIN32__
+static void localdirectory(char *base, size_t size)
+{
+    char old[FILENAME_MAX];
+    char *home = getenv("HOME");
+    char *xdg = getenv("XDG_DATA_HOME");
+
+    if(xdg != NULL && xdg[0] == '/')
+        snprintf(base, size, "%s/chroma", xdg);
+    else if(home != NULL)
+        snprintf(base, size, "%s/.local/share/chroma", home);
+    else
+    {
+        snprintf(base, size, ".chroma");
+        return;
+    }
+
+    if(home != NULL && !isdirectory(base))
+    {
+        snprintf(old, sizeof(old), "%s/.chroma", home);
+        if(isdirectory(old))
+            snprintf(base, size, "%s", old);
+    }
+    base[size - 1] = 0;
+}
+#endif
+
+/* The folder holding the running program, with a trailing separator, the
+   symbolic links on the way resolved; 0 when it cannot be found. */
+int executabledirectory(char *directory, size_t size)
+{
+    char path[FILENAME_MAX];
+    char *slash;
+
+#if defined(__WIN32__)
+    DWORD n = GetModuleFileNameA(NULL, path, sizeof(path));
+    if(n == 0 || n >= sizeof(path))
+        return 0;
+    path[n] = 0;
+    slash = strrchr(path, '\\');
+    if(strrchr(path, '/') > slash)
+        slash = strrchr(path, '/');
+#elif defined(__APPLE__)
+    char raw[FILENAME_MAX];
+    uint32_t n = sizeof(raw);
+    if(_NSGetExecutablePath(raw, &n) != 0 || realpath(raw, path) == NULL)
+        return 0;
+    slash = strrchr(path, '/');
+#else
+    ssize_t n = readlink("/proc/self/exe", path, sizeof(path) - 1);
+    if(n <= 0)
+        return 0;
+    path[n] = 0;
+    slash = strrchr(path, '/');
+#endif
+    if(slash == NULL || (size_t)(slash - path + 2) > size)
+        return 0;
+    slash[1] = 0;
+    strcpy(directory, path);
+    return 1;
+}
+
 void getfilename(char *filename, char *fullfilename, int create, int location)
 {
     char base[FILENAME_MAX];
@@ -131,6 +221,32 @@ void getfilename(char *filename, char *fullfilename, int create, int location)
 
     if(location == LOCATION_SYSTEM)
     {
+        /* The data folders beside the program, when they are there (an
+           unpacked archive, or av's install folder reached through a
+           symbolic link); otherwise the configured data folder, or the
+           current folder. */
+        static char exedir[FILENAME_MAX];
+        static int exedir_known = 0;
+
+        if(!exedir_known)
+        {
+            exedir_known = 1;
+            exedir[0] = 0;
+            if(executabledirectory(exedir, sizeof(exedir) - 16))
+            {
+                char probe[FILENAME_MAX + 16];
+                snprintf(probe, sizeof(probe), "%slevels", exedir);
+                if(!isdirectory(probe))
+                    exedir[0] = 0;
+            }
+        }
+
+        if(exedir[0] != 0)
+        {
+            snprintf(fullfilename, FILENAME_MAX, "%s%s", exedir, filename);
+            fullfilename[FILENAME_MAX - 1] = 0;
+            return;
+        }
 #ifdef CHROMA_DATA_DIR
 #ifndef __WIN32__
         sprintf(fullfilename, "%s%s", CHROMA_DATA_DIR, filename);
@@ -206,18 +322,12 @@ void getfilename(char *filename, char *fullfilename, int create, int location)
 #endif
 
 #ifndef __WIN32__
-        if(getenv("HOME") != NULL)
-        {
-            snprintf(base, FILENAME_MAX, "%s/.chroma", getenv("HOME"));
-        base[FILENAME_MAX - 1] = 0;
+        /* $XDG_DATA_HOME/chroma (~/.local/share/chroma), unless only an
+           older ~/.chroma exists, which is then kept in use */
+        localdirectory(base, FILENAME_MAX);
 
-            if(create)
-            ensuredirectory(base);
-        }
-        else
-        {
-        strcpy(base, ".chroma");
-        }
+        if(create)
+            ensuredirectories(base);
 #endif
 
         snprintf(fullfilename, FILENAME_MAX, "%s/%s", base, filename);
