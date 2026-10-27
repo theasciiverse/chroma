@@ -83,3 +83,9 @@ cross-built with MinGW-w64 against PDCurses 3.9 and run under Wine (the
 title, the level menus and a level; a position saved to
 `%APPDATA%\chroma\saved`); arrow keys under Wine's console are unchecked,
 as for nSnake and Bastet. macOS: not built here.
+
+## Ours
+
+- **How to play it, at the top of README.** A short note on installing and
+  starting it with av, or from a release archive; the original text follows
+  unchanged.
