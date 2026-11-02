@@ -49,6 +49,19 @@ changes are build steps for the SDL graphics and installing to
   `main()` before it was declared, which GCC 14 rejects; it is declared
   first, and `WinMain()` returns its result.
 
+## Levels
+
+- **Enigma's twelve levels, as a third set** (`levels/enigma/`, copied in
+  by `asciiverse/build.sh`). The original levels of Enigma, the
+  falling-blocks puzzle game Simon Tatham reimplemented in 2000, devised
+  by a friend of his who "has waived copyright on his levels, and granted
+  them to the public domain" (README of Tatham's enigma-1.04). These are
+  Amf's conversions into Chroma's format, unchanged, from
+  `chroma-extras.tar.bz2` at http://www.level7.org.uk/chroma/download/
+  (retrieved 2026-11-02, sha256
+  `0c8a042f55257d8c0d7d0658a868af6e5c8396aa2cb9921f6a3317c0a40cb956`).
+  The XOR level sets in the same archive are not included.
+
 ## Packaging (new files)
 
 - `asciiverse/build.sh`: `chroma-curses` in one compiler run against wide

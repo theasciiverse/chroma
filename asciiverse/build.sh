@@ -37,5 +37,5 @@ nice -n 10 $CC $CFLAGS $INCLUDES -DCHROMA_CURSES_HEADER="$CURSES_HEADER" \
   -o "out/chroma-curses$EXE" $SOURCES $LDFLAGS $LIBS
 mkdir -p out/levels
 cp -R colours help locale out/
-cp -R levels/chroma-1 levels/chroma-2 levels/regression out/levels/
+cp -R levels/chroma-1 levels/chroma-2 levels/enigma levels/regression out/levels/
 echo "built chroma-curses$EXE"
